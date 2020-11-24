@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Roots Cafe website"/>
-    <meta name="keywords" content="Vegetarian, Vegan, Cafe, Sustainable, Eco Friendly" />
-    <meta name="author" content="Alice Pinch"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Roots Cafe website" />
+    <meta
+      name="keywords"
+      content="Vegetarian, Vegan, Cafe, Sustainable, Eco Friendly"
+    />
+    <meta name="author" content="Alice Pinch" />
     <script
       src="https://kit.fontawesome.com/5342af2812.js"
       crossorigin="anonymous"
@@ -16,18 +19,73 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
     <title>Roots Cafe</title>
-</head>
-<body>
-    <!----Navigation and Mobile Navigation--->
+  </head>
+  <body>
+    <!----Navigation and Mobile Navigation taken from Bootstrap but customized --->
     <header>
+      <nav class="navbar stick-top navbar-expand-lg">
+        <a class="navbar-brand ml-3" href="#">
+          <img src="/assets/images/roots-logo-no-color.png" alt="" />Roots Cafe</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item ml-3">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item ml-3">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item ml-3">
+              <a class="nav-link" href="#">Find Us</a>
+            </li>
+            <li class="nav-item ml-3 mr-3">
+              <a class="nav-link" href="#">Contact/Reservations</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <!----/.Navigation and Mobile Navigation--->
 
     <!----Hero Image --->
 
     <section>
+      <div class="container-fluid" id="hero-outer">
+        <div class="row">
+          <div class="col-12">
+            <div id="hero-image"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-6 offset-3">
+            <div class="cover-text text-center bg-color-light-green">
+              <h2>Roots Cafe</h2>
+              <h3>Vegetarian & Vegan Friendly</h3>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!----/.Hero Image --->
@@ -35,19 +93,63 @@
     <!----About us / Company Ethos --->
 
     <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center">About Us</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <h2>About Us subheading</h2>
+            <p>About us body text</p>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <h2>About Us subheading</h2>
+            <p>About us body text</p>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <h2>About Us subheading</h2>
+            <p>About us body text</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!----/.About us / Company Ethos --->
 
     <!----Find Us/ Opening Times --->
     <section>
+      <div class="container-fluid bg-color-light-green">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center">Find Us</h2>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <h2>Iframe will go here</h2>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <h2>Opening Times and Address goes here</h2>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!----/.Find Us - Opening Times --->
 
     <!----Footer --->
-    <footer>
-    </footer>
+    <footer></footer>
     <!----/.Footer --->
   </body>
 </html>

@@ -8,9 +8,72 @@
 
 /*-----------------Headings and text styling----*/
 
-/*----------------- Background Colours ----*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  color: #848484;
+}
 
+p {
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    color: #848484;
+}
+
+a {
+    font-family: "Raleway", sans-serif;
+    color: #848484;
+
+}
+
+a:hover {
+    color: #A0DDBD;
+}
+
+/*----------------- Background Colours ----*/
+.bg-color-light-green {
+    background-color: #A0DDBD;
+}
 /*----------------- Navigation----*/
+
+.navbar {
+    background-color: #ffffff;
+    height: 65px;
+}
+
+.navbar-brand {
+    color: #A0DDBD;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 0;
+}
+
+.navbar-brand img {
+    height: 60px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+
+}
+
+.navbar-toggler {
+    padding: 5px 5px;
+    font-size: 1.25rem;
+    line-height: 1;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    background-color: transparent;
+}
+
+.navbar-toggler-icon i {
+    color: #848484;
+    padding-top: 5px;
+}
+
 
 /*----------------- Hero Image----*/
 
@@ -19,4 +82,3 @@
 /*----------------- Find us section----*/
 
 /*----------------- Footer ----*/
-
