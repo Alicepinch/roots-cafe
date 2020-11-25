@@ -6,6 +6,10 @@
   border: 0;
 }
 
+.col-12 {
+    padding:0;
+}
+
 /*-----------------Headings and text styling----*/
 
 h1,
@@ -16,69 +20,117 @@ h5,
 h6 {
   font-family: "Overpass", sans-serif;
   font-weight: 700;
-  color: #848484;
+  color: #696767;
 }
 
 p {
-    font-family: "Raleway", sans-serif;
-    font-weight: 100;
-    color: #848484;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  color: #696767;
 }
 
 a {
-    font-family: "Raleway", sans-serif;
-    color: #848484;
-
+  font-family: "Raleway", sans-serif;
+  color: #696767;
 }
 
 a:hover {
-    color: #A0DDBD;
+  color: #a0ddbd;
+  text-decoration: none;
 }
 
 /*----------------- Background Colours ----*/
+
 .bg-color-light-green {
-    background-color: #A0DDBD;
+  background-color: #a0ddbd;
+
 }
 /*----------------- Navigation----*/
 
 .navbar {
-    background-color: #ffffff;
-    height: 65px;
+  background-color: #ffffff;
 }
 
 .navbar-brand {
-    color: #A0DDBD;
-    font-size: 1.5em;
-    font-weight: 600;
-    padding: 0;
+  color: #a0ddbd;
+  font-size: 1.5em;
+  font-weight: 600;
+  padding: 0;
 }
 
 .navbar-brand img {
-    height: 60px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-
+  height: 60px;
+  padding-right: 10px;
+  padding-bottom: 5px;
 }
 
 .navbar-toggler {
-    padding: 5px 5px;
-    font-size: 1.25rem;
-    line-height: 1;
-    border: 1px solid transparent;
-    border-radius: .25rem;
-    background-color: transparent;
+  padding: 5px 5px;
+  font-size: 1.25rem;
+  line-height: 1;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  background-color: transparent;
 }
 
 .navbar-toggler-icon i {
-    color: #848484;
-    padding-top: 5px;
+  color: #848484;
+  padding-top: 5px;
 }
 
-
+#navbarNav {
+    background-color: #ffffff;
+}
 /*----------------- Hero Image----*/
+
+#hero-image {
+  height: 600px;
+  width: 100%;
+  background: url("/../assets/images/hero-image.jpg") no-repeat center center fixed;
+}
+
+#cover-text {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  background-color: rgba(160, 221, 189, 0.7);
+  height: 200px;
+  width: 600px;
+  margin: 0 auto;
+
+}
+
+#cover-text h2 {
+    padding-top: 30px;
+}
 
 /*----------------- About Us section----*/
 
 /*----------------- Find us section----*/
 
 /*----------------- Footer ----*/
+
+.footer-container p {
+    font-weight: 400;
+}
+
+.footer-container a {
+    color: #a0ddbd;
+}
+
+.footer-container a:hover {
+    color: #6BA688;
+}
+
+.social-network li {
+    display: inline;
+}
+
+.social-network i {
+   font-size: 25px;
+}
+
+#footer-logo{
+    height: 70px;
+}
+
