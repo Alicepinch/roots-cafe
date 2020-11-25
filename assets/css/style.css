@@ -7,7 +7,7 @@
 }
 
 .col-12 {
-    padding:0;
+  padding: 0;
 }
 
 /*-----------------Headings and text styling----*/
@@ -18,19 +18,19 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Overpass", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   color: #696767;
 }
 
 p {
-  font-family: "Raleway", sans-serif;
-  font-weight: 100;
+  font-family: "Overpass", sans-serif;
+  font-weight: 200;
   color: #696767;
 }
 
 a {
-  font-family: "Raleway", sans-serif;
+  font-family: "Overpass", sans-serif;
   color: #696767;
 }
 
@@ -43,7 +43,6 @@ a:hover {
 
 .bg-color-light-green {
   background-color: #a0ddbd;
-
 }
 /*----------------- Navigation----*/
 
@@ -79,17 +78,18 @@ a:hover {
 }
 
 #navbarNav {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 /*----------------- Hero Image----*/
 
 #hero-image {
   height: 600px;
   width: 100%;
-  background: url("/../assets/images/hero-image.jpg") no-repeat center center fixed;
+  background: url("/../assets/images/hero-image.jpg") no-repeat center center
+    fixed;
 }
 
-#cover-text {
+/* #cover-text {
   position: absolute;
   top: 40%;
   left: 30%;
@@ -97,40 +97,69 @@ a:hover {
   height: 200px;
   width: 600px;
   margin: 0 auto;
-
 }
 
 #cover-text h2 {
-    padding-top: 30px;
+  padding-top: 30px;
+} */
+
+/*----------------- Divider ----*/
+
+.divider {
+    color: #848484;
+    width: 200px;
+    margin: 0 auto;
+    border-top: 1px solid rgb(132, 132, 132);
+}
+
+
+.vertical-line {
+  border-left: 1px solid #848484;;
+  height: 300px;
+  margin-left: -3px;
 }
 
 /*----------------- About Us section----*/
 
 /*----------------- Find us section----*/
 
-/*----------------- Footer ----*/
+.find-us-container {
+    width: 100%;
+    padding: 20px 30px 30px 30px;
 
-.footer-container p {
+}
+iframe {
+    width: 100%;
+    height: 350px;
+}
+
+.opening-times-container p {
     font-weight: 400;
 }
 
+
+/*----------------- Footer ----*/
+
+.footer-container p {
+  font-weight: 400;
+}
+
 .footer-container a {
-    color: #a0ddbd;
+  color: #a0ddbd;
 }
 
 .footer-container a:hover {
-    color: #6BA688;
+  color: #6ba688;
 }
 
 .social-network li {
-    display: inline;
+  display: inline;
 }
 
 .social-network i {
-   font-size: 25px;
+  font-size: 25px;
 }
 
-#footer-logo{
-    height: 70px;
+#footer-logo {
+  height: 70px;
 }
-
