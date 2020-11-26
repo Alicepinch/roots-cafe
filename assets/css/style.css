@@ -102,7 +102,6 @@ a:hover {
     font-weight: 300;
 }
 
-
 /*----------------- Divider ----*/
 
 .divider-green {
@@ -116,11 +115,13 @@ a:hover {
   border-top: 2px solid rgb(160, 221, 189);
 }
 
+/*Borrowed code from W3schools "How to create a vertical line" edited*/
 .vertical-line {
-  border-left: 1px solid #848484;
+  border-left: 2px solid #848484;
   height: 300px;
   margin-left: -3px;
 }
+/*End of borrowed code from W3schools "How to create a vertical line edited*/
 
 /*----------------- About Us section----*/
 
@@ -152,7 +153,7 @@ iframe {
 
 /*----------------- Footer ----*/
 
-/* Code copied from stack overflow and adjusted */
+/* Borrowed from stack overflow and adjusted */
 #footer  {
     position: fixed;
     bottom: 0px;
@@ -160,7 +161,7 @@ iframe {
     right: 0px;
     margin-bottom: 0px;
 }
-/* End of copied code */
+/* End of borrowed code */
 
 
 .footer-container p {
@@ -186,6 +187,12 @@ iframe {
 
 #footer-logo {
   height: 50px;
+}
+
+/*----------------- Menu Page ----*/
+
+.menu-container {
+    padding-top: 90px;
 }
 
 
