@@ -21,7 +21,7 @@ h6 {
 
 p {
   font-family: "Overpass", sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   color: #696767;
 }
 
@@ -80,7 +80,7 @@ a:hover {
 
 #hero-image {
   position: relative;
-  height: 600px;
+  height: 750px;
   padding-top: 75px;
   background: url("/../assets/images/hero-image.jpg") no-repeat center center
     fixed;
@@ -94,7 +94,7 @@ a:hover {
   margin: 0 auto;
   left: 0;
   right: 0;
-  top: 170px;
+  top: 250px;
 }
 
 #cover-text h3 {
@@ -111,7 +111,7 @@ a:hover {
 }
 
 .divider {
-  width: 200px;
+  width: 300px;
   margin: 0 auto;
   border-top: 2px solid rgb(160, 221, 189);
 }
