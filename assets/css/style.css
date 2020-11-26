@@ -193,8 +193,9 @@ iframe {
 
 /*----------------- Menu Page ----*/
 
+
 #menu-container {
-    padding-top: 90px;
+    padding-top: 100px;
 }
 
 .menu-item {
@@ -206,8 +207,20 @@ iframe {
 
 .menu-item-price {
     float: right;
-    color: #696767;;
+    color: #696767;
 }
+
+.menu-add-on-list {
+    list-style-type: none;
+}
+
+.menu-add-on-item {
+    font-family: "Overpass", sans-serif;
+    color: #696767;
+    font-weight: 300;
+    font-size: 14px;
+}
+
 
 /*----------------- Carousel ----*/
 
@@ -221,6 +234,11 @@ iframe {
     border-top: 2px solid rgb(255,255,255);
   }
 
+ .divider-green {
+    width: 300px;
+    margin: 0 auto;
+    border-top: 2px solid rgb(160, 221, 189);
+  }
   #cover-text {
     height: 150px;
     width: 100%;
