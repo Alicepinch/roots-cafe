@@ -78,6 +78,7 @@ a:hover {
 }
 /*----------------- Hero Image----*/
 
+
 #hero-image {
   background-color:#a0ddbd; 
   position: relative;
@@ -88,7 +89,7 @@ a:hover {
 }
 
 #cover-text {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(160, 221, 189, 0.9);
   height: 150px;
   width: 50%;
   position: absolute;
@@ -108,6 +109,12 @@ a:hover {
   width: 400px;
   margin: 0 auto;
   border-top: 2px solid rgb(160, 221, 189);
+}
+
+.divider-white {
+  width: 400px;
+  margin: 0 auto;
+  border-top: 2px solid rgb(255,255,255);
 }
 
 .divider {
@@ -208,10 +215,10 @@ iframe {
 
 
 @media screen and (max-width: 768px) {
-  .divider-green {
+  .divider-white {
     width: 200px;
     margin: 0 auto;
-    border-top: 2px solid rgb(160, 221, 189);
+    border-top: 2px solid rgb(255,255,255);
   }
 
   #cover-text {
