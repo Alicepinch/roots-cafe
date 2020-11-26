@@ -79,6 +79,7 @@ a:hover {
 /*----------------- Hero Image----*/
 
 #hero-image {
+  background-color:#a0ddbd; 
   position: relative;
   height: 750px;
   padding-top: 75px;
@@ -111,8 +112,7 @@ a:hover {
 }
 
 .divider {
-  width: 300px;
-  margin: 0 auto;
+  width: 100%;
   border-top: 2px solid rgb(160, 221, 189);
 }
 
@@ -140,6 +140,16 @@ iframe {
   line-height: 1.25;
 }
 
+/*----------------- Trip advisor Container ----*/
+
+#trip-advisor-container {
+    height: 400px;
+}
+
+.trip-advisor-quote {
+    padding-top: 150px;
+}
+
 /*----------------- Footer ----*/
 
 /* Code copied from stack overflow and adjusted */
@@ -151,6 +161,7 @@ iframe {
     margin-bottom: 0px;
 }
 /* End of copied code */
+
 
 .footer-container p {
   font-weight: 400;
