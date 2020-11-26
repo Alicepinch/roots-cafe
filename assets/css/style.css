@@ -151,6 +151,10 @@ iframe {
     padding-top: 150px;
 }
 
+.trip-advisor-quote a {
+    color: #A0DDBD;
+}
+
 /*----------------- Footer ----*/
 
 /* Borrowed from stack overflow and adjusted */
@@ -206,6 +210,9 @@ iframe {
     float: right;
     color: #696767;;
 }
+
+/*----------------- Carousel ----*/
+
 
 
 
