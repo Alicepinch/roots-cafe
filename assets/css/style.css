@@ -117,7 +117,7 @@ a:hover {
 
 /*Borrowed code from W3schools "How to create a vertical line" edited*/
 .vertical-line {
-  border-left: 2px solid #848484;
+  border-left: 2px solid #696767;
   height: 300px;
   margin-left: -3px;
 }
@@ -154,13 +154,13 @@ iframe {
 /*----------------- Footer ----*/
 
 /* Borrowed from stack overflow and adjusted */
-#footer  {
+/* #footer  {
     position: fixed;
     bottom: 0px;
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
-}
+} */
 /* End of borrowed code */
 
 
@@ -191,9 +191,22 @@ iframe {
 
 /*----------------- Menu Page ----*/
 
-.menu-container {
+#menu-container {
     padding-top: 90px;
 }
+
+.menu-item {
+    text-align: left;
+}
+.menu-item h5{
+    color: #A0DDBD;
+}
+
+.menu-item-price {
+    float: right;
+    color: #696767;;
+}
+
 
 
 @media screen and (max-width: 768px) {
