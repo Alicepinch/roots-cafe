@@ -142,6 +142,16 @@ iframe {
 
 /*----------------- Footer ----*/
 
+/* Code copied from stack overflow and adjusted */
+#footer  {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+/* End of copied code */
+
 .footer-container p {
   font-weight: 400;
   font-size: 14px;
