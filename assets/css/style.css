@@ -61,11 +61,6 @@ a:hover {
 
 .navbar-toggler {
   padding: 5px 5px;
-  font-size: 1.25rem;
-  line-height: 1;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
-  background-color: transparent;
 }
 
 .navbar-toggler-icon i {
@@ -76,15 +71,16 @@ a:hover {
 #navbarNav {
   background-color: #ffffff;
 }
+
+
 /*----------------- Hero Image----*/
 
-
 #hero-image {
-  background-color:#a0ddbd; 
+  background-color: #a0ddbd;
   position: relative;
   height: 750px;
   padding-top: 75px;
-  background: url("/../assets/images/hero-image.jpg") no-repeat center center
+  background: url("/../assets/images/hero-image.jpg") no-repeat top center
     fixed;
 }
 
@@ -100,7 +96,7 @@ a:hover {
 }
 
 #cover-text h3 {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 /*----------------- Divider ----*/
@@ -114,7 +110,7 @@ a:hover {
 .divider-white {
   width: 400px;
   margin: 0 auto;
-  border-top: 2px solid rgb(255,255,255);
+  border-top: 2px solid rgb(255, 255, 255);
 }
 
 .divider {
@@ -151,20 +147,18 @@ iframe {
 /*----------------- Trip advisor Container ----*/
 
 #trip-advisor-container {
-    height: 400px;
+  height: 400px;
 }
 
 .trip-advisor-quote {
-    padding-top: 150px;
+  padding-top: 150px;
 }
 
 .trip-advisor-quote a {
-    color: #A0DDBD;
+  color: #a0ddbd;
 }
 
 /*----------------- Footer ----*/
-
-
 
 .footer-container p {
   font-weight: 400;
@@ -193,48 +187,43 @@ iframe {
 
 /*----------------- Menu Page ----*/
 
-
 #menu-container {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 .menu-item {
-    text-align: left;
+  text-align: left;
 }
-.menu-item h5{
-    color: #A0DDBD;
+.menu-item h5 {
+  color: #a0ddbd;
 }
 
 .menu-item-price {
-    float: right;
-    color: #696767;
+  float: right;
+  color: #696767;
 }
 
 .menu-add-on-list {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .menu-add-on-item {
-    font-family: "Overpass", sans-serif;
-    color: #696767;
-    font-weight: 300;
-    font-size: 14px;
+  font-family: "Overpass", sans-serif;
+  color: #696767;
+  font-weight: 300;
+  font-size: 14px;
 }
 
-
 /*----------------- Carousel ----*/
-
-
-
 
 @media screen and (max-width: 768px) {
   .divider-white {
     width: 200px;
     margin: 0 auto;
-    border-top: 2px solid rgb(255,255,255);
+    border-top: 2px solid rgb(255, 255, 255);
   }
 
- .divider-green {
+  .divider-green {
     width: 300px;
     margin: 0 auto;
     border-top: 2px solid rgb(160, 221, 189);
@@ -245,7 +234,6 @@ iframe {
   }
 
   .opening-times-container p {
-      font-size: 12px;
+    font-size: 12px;
   }
-
 }
