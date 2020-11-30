@@ -37,7 +37,6 @@ Business Goals:
 
 ### Scope
 
-
 - User will be able to find the location of Roots Cafe via the 'Visit Us Section'
 - User will be able to view some reviews from previous customers
 - Can view the menu from the 'Menu' section.
@@ -81,7 +80,6 @@ The structe of this website will be a linear structre with no subpages. The navi
 Each page will have the same navigation links for customers to easily navigate back and forth through Pages
 Wireframes were created using balsamiq and the final wireframes can be accessed below:
 
-
 Original Wireframes:
 
 Reasons for change:
@@ -90,33 +88,27 @@ Reasons for change:
 
 #### Design:
 
-For the overall design of this project I wanted it to be very simple and clean.
+For the overall design of this project I wanted it to be very simple, clean and crisp with not too much going on but enough to portray all the information I needed in a professional way.
 
 #### Typography:
 
-The fonts that I decided to use for this project are Overpass and Raleway as they are both very simple. The fall back font that I used is sans-sherif.
-Overpass has been used for headers and Raleway has been used for body text.
+The fonts that I decided to use for this project are Overpass and Raleway as they go together well. The fall back font that I used is sans-sherif.
+Raleway has been used for headers and overpass has been used for body text.
 
 #### Colour Scheme
 
-I wanted my design to be clean with not too many colours so I opted for t too many different colours so opted for variations of the same colour in deeper shades.
-
-#### images
-
-
-- Links to Wireframes
+(Link to colour pallett)
 
 ## Features
 
-
-- Basic booking/contact form which will go through to an email
+- Basic contact form which will go through to an email
 - iFrame Google Map to show the location of the coffee shop
 - Hero Image
 - Gallery/carousel images to showcase a range of product photos from the menu
-- About us section to educate the customer on ethos.
-- Fixed footer which will give customers access to all of the social media platforms.
+- About us section.
+- Fixed footer which will give customers access to all of the social media platforms and quick contact information.
 - Responsive webpage which is optimized for Large, medium and small screens.
-- Fixed navigation bar with the company logo to allow customers easy access to all pages at any time. Navigation links linking through to the different pages, and some anchor linked to the homepage.
+- Fixed navigation bar with the company logo to allow customers easy access to all pages at any time.
 
 Future features to be implemented:
 
@@ -124,7 +116,6 @@ Future features to be implemented:
 - A booking system which displays all available dates and times.
 
 ## Technologies Used
-
 
 ### Languages
 
@@ -135,7 +126,7 @@ Future features to be implemented:
 ### Other tools used
 
 - Procreate - Used to create the "Cafe Name" logo
-- Font awesome - Used for the logos in the Find us section
+- Font awesome - Used for the logos in the Visit us section
 - Google fonts - To import "Overpass and Raleway" to be used across the website
 - Bootstrap - To help with creating a responsive website using their grid system and code used for Navigation and carousel
 - Balsamiq - To create the wireframes for Desktop, Tablet and Phone.
@@ -146,41 +137,30 @@ Future features to be implemented:
 
 ## Testing
 
-When testing responsiveness in developer tools I notived that on the ipad pro screen the hero image wasnt taking up the whole section so I added in the media queries with and linked a larger image. 
+Throughout the building process of the website I have been checking Developer tools to ensure that the website is responsive on different devices. 
+I have also been checking the website on my Iphone as found that sometimes the developer tools could be buggy and not always accurate. 
 
----
-Throughout the building process of the 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### Hero Image Cover text:
+Whilst using developer tools I noticed that the cover text on the Hero image was not responsive, to fix this I added in a media querie for the cover text ID and changed the width to be 100% for smaller sizes.  
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+### Navbar Hamburger Menu:
+Due to removing the Bootstrap styling from the navbar the hamburger icon disappeared. To fix this I added in a fontawesome icon to the span class "navbar-toggler-icon". The navbar wasn't centered so I added in CSS styling 'padding-top: 5px;" which fixed this. 
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+### Lighthouse:
+Throughout the building process I was checking my website's performance using lighthouse in the developer tools. 
 
-1. Contact form:
-   1. Go to the "Contact Us" page
-   2. Try to submit the empty form and verify that an error message about the required fields appears
-   3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-   4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+This has also been checking this on a larger screen size of 21inches.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+The different browsers that this has been checked in are:
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+User stories tested: 
 
 ## Deployment
 
 ---
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 ## Credits
 
@@ -192,7 +172,6 @@ All content is self written however some knowledge has been taken from the below
 
 - Information on the sustainable coffee brand: https://www.bridgecoffeeroasters.co.uk/wholesale/coffee/
 - Ideas on how to be a sustainable cafe https://www.mobiletransaction.org/how-to-make-cafe-sustainable/
--
 
 ### Media
 
@@ -201,3 +180,5 @@ The photos used in this site were obtained from:
 - https://www.rawpixel.com/
 
 ### Acknowledgements
+
+
