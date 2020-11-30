@@ -58,7 +58,9 @@
               <a class="nav-link" href="visit-us.html">Visit</a>
             </li>
             <li class="nav-item ml-3 mr-3">
-              <a class="nav-link" href="contact.html">Contact Us<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="contact.html"
+                >Contact Us<span class="sr-only">(current)</span></a
+              >
             </li>
           </ul>
         </div>
@@ -67,25 +69,70 @@
     <!----/.Navigation and Mobile Navigation--->
 
     <!-----Contact form---->
-    <section id="form-container">
+    <section id="form-outer-container">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
             <h1>Contact Us</h1>
             <hr class="divider-green" />
-            <form class="pt-3">
-            <div>
-              <input type="text" id="first-name" name="first_name" placeholder="First Name" class="form-field"/>
-              </div>
-              <input type="text" id="last-name" name="last_name" placeholder="Last Name" class="form-field">
-              <input type="email" name="email" id="email" placeholder="Email Address" class="form-field">
-              <input type="text-area" name="subject" id="subject" placeholder="Subject" class="form-field" >
-              <input type="text-area" name="message" id="message" placeholder="Your Message" class="form-field">
-            </form>
+
+            <div class="container" id="form-container">
+              <form>
+                <div class="row">
+                  <div class="form-input col-12 col-md-6">
+                    <input
+                      type="text"
+                      id="fname"
+                      placeholder="First Name"
+                      class="form-field"
+                      required
+                    />
+                  </div>
+                  <div class="form-input col-12 col-md-6">
+                    <input
+                      type="text"
+                      id="lname"
+                      placeholder="Last Name"
+                      class="form-field"
+                      required
+                    />
+                  </div>
+                  <div class="form-input col-12">
+                    <input
+                      type="email"
+                      id="email"
+                      placeholder="Email Address"
+                      class="form-field"
+                      required
+                    />
+                  </div>
+                  <div class="form-input col-12">
+                    <input
+                      type="text"
+                      id="subject"
+                      placeholder="Subject"
+                      class="form-field"
+                      required
+                    />
+                  </div>
+                  <div class="form-input col-12">
+                    <textarea
+                      type="text-area"
+                      id="message"
+                      rows="5"
+                      placeholder="Message"
+                      class="form-field"
+                    ></textarea>
+                  </div>
+                  <div class="form-input col-12">
+                    <button type="submit" class="btn btn-submit">Submit Form</button>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
         </div>
-
+      </div>
     </section>
     <!-----/.Contact form---->
 

@@ -33,6 +33,7 @@ a {
 a:hover {
   color: #a0ddbd;
   text-decoration: none;
+  transition: all 200ms ease-in-out;
 }
 
 /*----------------- Background Colours ----*/
@@ -158,7 +159,7 @@ a:hover {
 }
 
 .trip-advisor-container a:hover {
-    color: #6ba688;;
+    color: #6ba688;
 
 }
 
@@ -236,18 +237,42 @@ a:hover {
 
 /*----------------- Contact Us form ----*/
 
-#form-container {
+#form-outer-container {
   padding-top: 100px;
 }
 
-.form-field {
-  display: block;
-  width: 50%;
-  border-radius: 20px;
-  border-color: #696767;
+#form-container {
+    padding: 20px;
 }
 
-/*----------------- Visit us section----*/
+.form-input {
+    margin-bottom: 10px;
+}
+
+.form-field {
+  width: 100%;
+  border: 1px solid #696767;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "overpass",sans-serif;
+
+}
+
+.btn-submit {
+    background-color: #a0ddbd;
+    color: #ffffff;
+    border-radius: 20px;
+    width: 30%; 
+    transition: all 200ms ease-in-out;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);   
+    
+}
+
+.btn-submit:hover {
+    background-color:  #6ba688;
+    color: #ffffff;
+}
+/*---------------- Visit us section----*/
 
 #visit-us-container {
   padding-top: 100px;
