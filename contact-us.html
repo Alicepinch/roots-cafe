@@ -69,66 +69,70 @@
     <!----/.Navigation and Mobile Navigation--->
 
     <!-----Contact form---->
-    <section id="form-outer-container">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h1>Contact Us</h1>
-            <hr class="divider-green" />
+    <section id="contact-container">
+      <div class="overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h1 class="contact-us-heading">Contact Us</h1>
+              <hr class="divider-green" />
 
-            <div class="container" id="form-container">
-              <form>
-                <div class="row">
-                  <div class="form-input col-12 col-md-6">
-                    <input
-                      type="text"
-                      id="fname"
-                      placeholder="First Name"
-                      class="form-field"
-                      required
-                    />
+              <div class="container" id="form-container">
+                <form action="#" method="POST">
+                  <div class="row">
+                    <div class="form-input col-12 col-md-6">
+                      <input
+                        type="text"
+                        id="fname"
+                        placeholder="First Name"
+                        class="form-field"
+                        required
+                      />
+                    </div>
+                    <div class="form-input col-12 col-md-6">
+                      <input
+                        type="text"
+                        id="lname"
+                        placeholder="Last Name"
+                        class="form-field"
+                        required
+                      />
+                    </div>
+                    <div class="form-input col-12">
+                      <input
+                        type="email"
+                        id="email"
+                        placeholder="Email Address"
+                        class="form-field"
+                        required
+                      />
+                    </div>
+                    <div class="form-input col-12">
+                      <input
+                        type="text"
+                        id="subject"
+                        placeholder="Subject"
+                        class="form-field"
+                        required
+                      />
+                    </div>
+                    <div class="form-input col-12">
+                      <textarea
+                        type="text-area"
+                        id="message"
+                        rows="5"
+                        placeholder="Message"
+                        class="form-field"
+                      ></textarea>
+                    </div>
+                    <div class="form-input col-12">
+                      <button type="submit" class="btn btn-submit">
+                        Submit
+                      </button>
+                    </div>
                   </div>
-                  <div class="form-input col-12 col-md-6">
-                    <input
-                      type="text"
-                      id="lname"
-                      placeholder="Last Name"
-                      class="form-field"
-                      required
-                    />
-                  </div>
-                  <div class="form-input col-12">
-                    <input
-                      type="email"
-                      id="email"
-                      placeholder="Email Address"
-                      class="form-field"
-                      required
-                    />
-                  </div>
-                  <div class="form-input col-12">
-                    <input
-                      type="text"
-                      id="subject"
-                      placeholder="Subject"
-                      class="form-field"
-                      required
-                    />
-                  </div>
-                  <div class="form-input col-12">
-                    <textarea
-                      type="text-area"
-                      id="message"
-                      rows="5"
-                      placeholder="Message"
-                      class="form-field"
-                    ></textarea>
-                  </div>
-                  <div class="form-input col-12">
-                    <button type="submit" class="btn btn-submit">Submit Form</button>
-                  </div>
-                </div>
-              </form>
+                </form>
+              </div>
             </div>
           </div>
         </div>
@@ -142,20 +146,29 @@
         <div class="row justify-content-around">
           <!----Social Media Links---->
           <div class="col-sm-6 col-md-4 text-center">
-            <h6>Follow Us On Social Media</h6>
+            <h5>Social Media:</h5>
             <ul class="social-network">
               <li>
-                <a href="https//instagram.com" target="_blank"
+                <a
+                  href="https//instagram.com"
+                  target="_blank"
+                  aria-label="Instagram"
                   ><i class="fab fa-instagram"></i
                 ></a>
               </li>
               <li>
-                <a href="https//facebook.com" target="_blank"
+                <a
+                  href="https//facebook.com"
+                  target="_blank"
+                  aria-label="Facebook"
                   ><i class="fab fa-facebook"></i
                 ></a>
               </li>
               <li>
-                <a href="https//twitter.com" target="_blank"
+                <a
+                  href="https//twitter.com"
+                  target="_blank"
+                  aria-label="Twitter"
                   ><i class="fab fa-twitter"></i
                 ></a>
               </li>
@@ -165,7 +178,7 @@
 
           <!----Contact Us---->
           <div class="col-sm-6 col-md-4 text-center">
-            <h6>Contact Us</h6>
+            <h5>Contact Us</h5>
             <p>
               Phone Number: <a href="tel:23423042340">+23423042340</a>
               <br />
@@ -182,6 +195,7 @@
               <a
                 href="https://www.linkedin.com/in/alice-pinch-90668613a/"
                 target="_blank"
+                rel="noopener"
                 >Alice Pinch</a
               >
               <img
