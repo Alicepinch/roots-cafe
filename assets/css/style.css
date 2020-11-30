@@ -135,7 +135,27 @@ a:hover {
 }
 /*----------------- Trip advisor Container ----*/
 
+.trip-advisor-container em {
+    font-weight: 600;
+}
 
+.trip-advisor-container a{
+    color: #ffffff;
+
+}
+
+.trip-advisor-container a:hover {
+    color: #6ba688;;
+
+}
+
+/*----------------- Instagram Container ----*/
+
+
+.instagram-grid {
+    height: 100%;
+    width: 100%;
+}
 /*----------------- Footer ----*/
 
 
