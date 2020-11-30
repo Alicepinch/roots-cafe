@@ -129,7 +129,10 @@ a:hover {
 /*End of borrowed code from W3schools "How to create a vertical line" edited*/
 
 /*----------------- About Us section----*/
-
+.about-us-img {
+    width: 100%;
+    height: 100%;
+}
 /*----------------- Trip advisor Container ----*/
 
 
