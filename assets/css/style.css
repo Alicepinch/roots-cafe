@@ -149,6 +149,10 @@ a:hover {
 }
 /*----------------- Trip advisor Container ----*/
 
+.trip-advisor-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 .trip-advisor-container em {
   font-weight: 600;
 }
@@ -163,9 +167,10 @@ a:hover {
 
 /*----------------- Instagram Container ----*/
 
-#instagram-container {
+#instagram {
   padding-top: 40px;
 }
+
 #instagram-container a {
   font-size: 20px;
   color: #a0ddbd;
@@ -176,12 +181,14 @@ a:hover {
 }
 
 .instagram-grid {
-    padding:10px;
+ padding: 10px;;
+
 }
 
 .instagram-grid img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 .instagram-handle {
@@ -344,5 +351,10 @@ iframe {
 
   .sustainable-coffee-container {
     padding-bottom: 2rem;
+    padding-top: 20px;
   }
+
+  .vegetarian-menu-container {
+    padding-top: 20px;
+}
 }
