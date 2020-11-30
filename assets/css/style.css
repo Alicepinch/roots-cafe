@@ -129,11 +129,24 @@ a:hover {
 /*End of borrowed code from W3schools "How to create a vertical line" edited*/
 
 /*----------------- About Us section----*/
-.about-us-img {
+
+.vegetarian-menu-container {
+    padding-top: 40px;
+}
+.sustainable-coffee-container  {
+    padding-top: 40px;
+    padding-bottom: 3rem;
+}
+.vegetarian-menu-container img {
+    width: 100%;
+    height: 100%;
+} 
+.sustainable-coffee-container img {
     width: 100%;
     height: 100%;
 }
 /*----------------- Trip advisor Container ----*/
+
 
 .trip-advisor-container em {
     font-weight: 600;
@@ -151,8 +164,16 @@ a:hover {
 
 /*----------------- Instagram Container ----*/
 
+#instagram-container a {
+    font-size: 20px;
+    color: #A0DDBD;
+}
 
-.instagram-grid {
+#instagram-container a:hover {
+    color: #6BA688;
+}
+
+.instagram-grid img {
     height: 100%;
     width: 100%;
 }
@@ -229,8 +250,9 @@ a:hover {
 /*----------------- Visit us section----*/
 
 #visit-us-container {
-  padding-top: 65px;
+  padding-top: 100px;
 }
+
 #iframe-container {
   width: 100%;
   padding: 30px 40px 40px 40px;
