@@ -41,6 +41,8 @@ a:hover {
 .bg-color-light-green {
   background-color: #a0ddbd;
 }
+
+
 /*----------------- Navigation----*/
 
 .navbar {
@@ -78,7 +80,7 @@ a:hover {
   background-color: #ffffff;
 }
 
-/*----------------- Hero Image----*/
+/*----------------- Hero Image and Background Images----*/
 
 #hero-image {
   background-color: #a0ddbd;
@@ -103,6 +105,27 @@ a:hover {
   font-weight: 300;
 }
 
+#menu-header {
+  background-color: #a0ddbd;
+  position: relative;
+  height: 300px;
+  padding-top: 75px;
+  background: url("/../assets/images/hero-image.jpg") no-repeat top center fixed;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+#contact-container {
+  background-color: #a0ddbd;
+  position: relative;
+  height: 650px;
+  background: url("/../assets/images/contact-us-background-image.jpg") no-repeat
+    top center fixed;
+}
 /*----------------- Divider ----*/
 
 .divider-green {
@@ -225,8 +248,9 @@ a:hover {
 
 /*----------------- Menu Page ----*/
 
-#menu-container {
-  padding-top: 100px;
+
+.menu-heading {
+    padding-top: 60px;
 }
 
 .menu-item {
@@ -262,11 +286,6 @@ a:hover {
     top center fixed;
 }
 
-.overlay {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.8);
-}
 
 .contact-us-heading {
   padding-top: 110px;
