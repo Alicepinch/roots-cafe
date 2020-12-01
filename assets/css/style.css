@@ -184,6 +184,7 @@ a:hover {
 .trip-advisor-container {
   padding-top: 2rem;
   padding-bottom: 2rem;
+
 }
 .trip-advisor-container em {
   font-weight: 600;
@@ -376,16 +377,25 @@ iframe {
   }
 
 
-  #instagram-contatiner {
-    text-align: center;
-  }
+  .instagram-handle {
+  float:none;
+}
 
   .sustainable-coffee-container {
     padding-bottom: 2rem;
     padding-top: 20px;
   }
 
+
   .vegetarian-menu-container {
     padding-top: 20px;
+  }
+
+  .opening-times-container {
+      padding-top: 20px;
+      margin-bottom: 0;
+  }
+  .address-container {
+      padding-top: 20px;
   }
 }
