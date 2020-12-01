@@ -42,7 +42,6 @@ a:hover {
   background-color: #a0ddbd;
 }
 
-
 /*----------------- Navigation----*/
 
 .navbar {
@@ -107,7 +106,13 @@ a:hover {
 
 #menu-header {
   background-color: #a0ddbd;
-  position: relative;
+  height: 300px;
+  padding-top: 75px;
+  background: url("/../assets/images/hero-image.jpg") no-repeat top center fixed;
+}
+
+#visit-header {
+  background-color: #a0ddbd;
   height: 300px;
   padding-top: 75px;
   background: url("/../assets/images/hero-image.jpg") no-repeat top center fixed;
@@ -146,11 +151,11 @@ a:hover {
 }
 
 /*Borrowed code from W3schools "How to create a vertical line" edited*/
-.vertical-line {
+/* .vertical-line {
   border-left: 2px solid #696767;
   height: 300px;
   margin-left: -3px;
-}
+} */
 /*End of borrowed code from W3schools "How to create a vertical line" edited*/
 
 /*----------------- About Us section----*/
@@ -173,8 +178,8 @@ a:hover {
 /*----------------- Trip advisor Container ----*/
 
 .trip-advisor-container {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .trip-advisor-container em {
   font-weight: 600;
@@ -204,8 +209,7 @@ a:hover {
 }
 
 .instagram-grid {
- padding: 10px;;
-
+  padding: 10px;
 }
 
 .instagram-grid img {
@@ -241,16 +245,10 @@ a:hover {
   font-size: 25px;
 }
 
-#footer-logo {
-  height: 50px;
-  width: 55px;
-}
-
 /*----------------- Menu Page ----*/
 
-
 .menu-heading {
-    padding-top: 60px;
+  padding-top: 60px;
 }
 
 .menu-item {
@@ -286,7 +284,6 @@ a:hover {
     top center fixed;
 }
 
-
 .contact-us-heading {
   padding-top: 110px;
 }
@@ -320,25 +317,33 @@ a:hover {
   background-color: #6ba688;
   color: #ffffff;
 }
-/*---------------- Visit us section----*/
+/*---------------- Visit us Page----*/
 
+.visit-heading {
+    padding-top: 60px;
+}
 #visit-us-container {
   padding-top: 100px;
 }
 
 #iframe-container {
   width: 100%;
-  padding: 30px 40px 40px 40px;
+  padding: 40px;
 }
 iframe {
   width: 100%;
   height: 350px;
 }
 
-#opening-times-container p {
-  font-weight: 400;
-  line-height: 1.25;
+.opening-times-image-container {
+    padding: 40px;
 }
+
+.opening-times-image-container img {
+    height: 350px;
+    width: 100%;
+}
+
 
 @media screen and (max-width: 768px) {
   .divider-white {
@@ -357,13 +362,7 @@ iframe {
     width: 100%;
   }
 
-  .opening-times-container p {
-    font-size: 12px;
-  }
 
-  .instagram-handle {
-    float: none;
-  }
   #instagram-contatiner {
     text-align: center;
   }
@@ -375,5 +374,5 @@ iframe {
 
   .vegetarian-menu-container {
     padding-top: 20px;
-}
+  }
 }
