@@ -86,7 +86,7 @@ a:hover {
   position: relative;
   height: 750px;
   padding-top: 75px;
-  background: url("../assets/images/hero-image.jpg") no-repeat top center fixed;
+  background: url("roots-cafe/assets/images/hero-image.jpg") no-repeat top center fixed;
 }
 
 #cover-text {
@@ -108,14 +108,14 @@ a:hover {
   background-color: #a0ddbd;
   height: 400px;
   padding-top: 75px;
-  background: url("../assets/images/hero-image.jpg") no-repeat top center fixed;
+  background: url("roots-cafe/assets/images/hero-image.jpg") no-repeat top center fixed;
 }
 
 #menu-header {
   background-color: #a0ddbd;
   height: 400px;
   padding-top: 75px;
-  background: url("../assets/images/hero-image.jpg") no-repeat top center fixed;
+  background: url("roots-cafe/assets/images/hero-image.jpg") no-repeat top center fixed;
 }
 
 #visit-header {
