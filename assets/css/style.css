@@ -160,6 +160,10 @@ a:hover {
 
 /*----------------- About Us section----*/
 
+#about-us {
+    padding-top: 3rem;
+}
+
 .vegetarian-menu-container {
   padding-top: 40px;
 }
@@ -195,8 +199,13 @@ a:hover {
 
 /*----------------- Instagram Container ----*/
 
-#instagram {
+#instagram-outer-container {
   padding-top: 40px;
+}
+
+.instagram-container {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 #instagram-container a {
