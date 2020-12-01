@@ -252,6 +252,10 @@ blockquote {
 
 /*----------------- Footer ----*/
 
+.footer-container {
+    padding-top: 40px;
+}
+
 .footer-container p {
   font-weight: 400;
   font-size: 14px;
