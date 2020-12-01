@@ -14,19 +14,19 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 600;
   color: #696767;
 }
 
 p {
-  font-family: "Overpass", sans-serif;
+  font-family: 'Overpass', sans-serif;
   font-weight: 300;
   color: #696767;
 }
 
 a {
-  font-family: "Overpass", sans-serif;
+  font-family: 'Overpass', sans-serif;
   color: #696767;
 }
 
@@ -49,7 +49,7 @@ a:hover {
 }
 
 .navbar a {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .navbar-brand {
@@ -86,7 +86,8 @@ a:hover {
   position: relative;
   height: 750px;
   padding-top: 75px;
-  background: url("/roots-cafe/assets/images/hero-image.jpg") no-repeat top center fixed;
+  background: url("/roots-cafe/assets/images/hero-image.jpg") no-repeat top
+    center fixed;
 }
 
 #cover-text {
@@ -108,21 +109,24 @@ a:hover {
   background-color: #a0ddbd;
   height: 400px;
   padding-top: 75px;
-  background: url("/roots-cafe/assets/images/hero-image.jpg") no-repeat top center fixed;
+  background: url("/roots-cafe/assets/images/hero-image.jpg") no-repeat top
+    center fixed;
 }
 
 #menu-header {
   background-color: #a0ddbd;
   height: 400px;
   padding-top: 75px;
-  background: url("/roots-cafe/assets/images/hero-image.jpg") no-repeat top center fixed;
+  background: url("/roots-cafe/assets/images/hero-image.jpg") no-repeat top
+    center fixed;
 }
 
 #visit-header {
   background-color: #a0ddbd;
   height: 400px;
   padding-top: 75px;
-  background: url("/roots-cafe/assets/images/hero-image.jpg") no-repeat top center fixed;
+  background: url("/roots-cafe/assets/images/hero-image.jpg") no-repeat top
+    center fixed;
 }
 
 .overlay {
@@ -161,31 +165,35 @@ a:hover {
 /*----------------- About Us section----*/
 
 #about-us {
-    padding-top: 3rem;
+  padding-top: 3rem;
 }
 
 .vegetarian-menu-container {
   padding-top: 40px;
 }
+
 .sustainable-coffee-container {
   padding-top: 40px;
   padding-bottom: 3rem;
 }
+
 .vegetarian-menu-container img {
   width: 100%;
   height: 100%;
 }
+
 .sustainable-coffee-container img {
   width: 100%;
   height: 100%;
 }
+
 /*----------------- Trip advisor Container ----*/
 
 .trip-advisor-container {
   padding-top: 2rem;
   padding-bottom: 2rem;
-
 }
+
 .trip-advisor-container em {
   font-weight: 600;
 }
@@ -205,8 +213,8 @@ a:hover {
 }
 
 .instagram-container {
-    padding-top: 1rem;
-    padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
 #instagram-container a {
@@ -278,7 +286,7 @@ a:hover {
 }
 
 .menu-add-on-item {
-  font-family: "Overpass", sans-serif;
+  font-family: 'Overpass', sans-serif;
   color: #696767;
   font-weight: 300;
   font-size: 14px;
@@ -287,7 +295,7 @@ a:hover {
 /*----------------- Contact Us page----*/
 
 .contact-heading {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 #form-container {
@@ -303,7 +311,7 @@ a:hover {
   border: 1px solid #696767;
   padding: 10px;
   border-radius: 10px;
-  font-family: "overpass", sans-serif;
+  font-family: 'Overpass', sans-serif;
 }
 
 .btn-submit {
@@ -319,10 +327,11 @@ a:hover {
   background-color: #6ba688;
   color: #ffffff;
 }
+
 /*---------------- Visit us Page----*/
 
 .visit-heading {
-    padding-top: 60px;
+  padding-top: 60px;
 }
 #visit-us-container {
   padding-top: 100px;
@@ -338,14 +347,13 @@ iframe {
 }
 
 .opening-times-image-container {
-    padding: 40px;
+  padding: 40px;
 }
 
 .opening-times-image-container img {
-    height: 350px;
-    width: 100%;
+  height: 350px;
+  width: 100%;
 }
-
 
 @media screen and (max-width: 768px) {
   .divider-white {
@@ -364,26 +372,24 @@ iframe {
     width: 100%;
   }
 
-
   .instagram-handle {
-  float:none;
-}
+    float: none;
+  }
 
   .sustainable-coffee-container {
     padding-bottom: 2rem;
     padding-top: 20px;
   }
 
-
   .vegetarian-menu-container {
     padding-top: 20px;
   }
 
   .opening-times-container {
-      padding-top: 20px;
-      margin-bottom: 0;
+    padding-top: 20px;
+    margin-bottom: 0;
   }
   .address-container {
-      padding-top: 20px;
+    padding-top: 20px;
   }
 }
