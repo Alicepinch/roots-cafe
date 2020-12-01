@@ -49,6 +49,8 @@ blockquote {
 
 /*----------------- Navigation----*/
 
+/*---- CSS below overwrites the bootstrap styling---*/
+
 .navbar {
   background-color: #ffffff;
 }
@@ -88,6 +90,8 @@ blockquote {
 #navbarNav {
   background-color: #ffffff;
 }
+
+/*---- End of overwritten bootstrap styling ---*/
 
 /*----------------- Hero Image and Background Images----*/
 
@@ -359,7 +363,8 @@ blockquote {
 
 #iframe-container {
   width: 100%;
-  padding: 40px;
+  padding: 30px;
+  
 }
 
 iframe {
@@ -378,7 +383,7 @@ iframe {
 }
 
 .opening-times-image-container img {
-  height: 350px;
+  height: 100%;
   width: 100%;
 }
 
