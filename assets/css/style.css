@@ -86,7 +86,7 @@ a:hover {
   position: relative;
   height: 750px;
   padding-top: 75px;
-  background: url("/../assets/images/hero-image.jpg") no-repeat top center fixed;
+  background: url("../assets/images/hero-image.jpg") no-repeat top center fixed;
 }
 
 #cover-text {
@@ -106,21 +106,21 @@ a:hover {
 
 #contact-header {
   background-color: #a0ddbd;
-  height: 300px;
+  height: 400px;
   padding-top: 75px;
-  background: url("/../assets/images/hero-image.jpg") no-repeat top center fixed;
+  background: url("../assets/images/hero-image.jpg") no-repeat top center fixed;
 }
 
 #menu-header {
   background-color: #a0ddbd;
-  height: 300px;
+  height: 400px;
   padding-top: 75px;
-  background: url("/../assets/images/hero-image.jpg") no-repeat top center fixed;
+  background: url("../assets/images/hero-image.jpg") no-repeat top center fixed;
 }
 
 #visit-header {
   background-color: #a0ddbd;
-  height: 300px;
+  height: 400px;
   padding-top: 75px;
   background: url("/../assets/images/hero-image.jpg") no-repeat top center fixed;
 }
@@ -258,7 +258,7 @@ a:hover {
 /*----------------- Menu Page ----*/
 
 .menu-heading {
-  padding-top: 60px;
+  padding-top: 100px;
 }
 
 .menu-item {
@@ -287,19 +287,7 @@ a:hover {
 /*----------------- Contact Us page----*/
 
 .contact-heading {
-    padding-top: 60px;
-}
-
-#contact-container {
-  background-color: #a0ddbd;
-  position: relative;
-  height: 650px;
-  background: url("/../assets/images/contact-us-background-image.jpg") no-repeat
-    top center fixed;
-}
-
-.contact-us-heading {
-  padding-top: 110px;
+    padding-top: 100px;
 }
 
 #form-container {
