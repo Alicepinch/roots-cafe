@@ -276,7 +276,7 @@ blockquote {
 /*----------------- Menu Page ----*/
 
 .menu-heading {
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 .menu-item {
@@ -305,7 +305,7 @@ blockquote {
 /*----------------- Contact Us page----*/
 
 .contact-heading {
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 #form-container {
@@ -343,6 +343,7 @@ blockquote {
 .visit-heading {
   padding-top: 60px;
 }
+
 #visit-us-container {
   padding-top: 100px;
 }
