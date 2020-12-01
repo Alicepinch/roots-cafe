@@ -437,6 +437,10 @@ iframe {
   .opening-times-image-container {
       display: none;
   }
+
+  .opening-times-container {
+      padding-top: 20px;
+  }
   
 }
 
