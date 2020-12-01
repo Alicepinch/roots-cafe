@@ -36,6 +36,11 @@ a:hover {
   transition: all 200ms ease-in-out;
 }
 
+blockquote {
+    color: #696767;
+    font-family: 'overpass', sans-serif;
+}
+
 /*----------------- Background Colours ----*/
 
 .bg-color-light-green {
