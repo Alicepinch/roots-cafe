@@ -14,19 +14,19 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
   color: #696767;
 }
 
 p {
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   font-weight: 300;
   color: #696767;
 }
 
 a {
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   color: #696767;
 }
 
@@ -49,7 +49,7 @@ a:hover {
 }
 
 .navbar a {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .navbar-brand {
@@ -286,7 +286,7 @@ a:hover {
 }
 
 .menu-add-on-item {
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   color: #696767;
   font-weight: 300;
   font-size: 14px;
@@ -311,7 +311,7 @@ a:hover {
   border: 1px solid #696767;
   padding: 10px;
   border-radius: 10px;
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
 }
 
 .btn-submit {
@@ -341,6 +341,7 @@ a:hover {
   width: 100%;
   padding: 40px;
 }
+
 iframe {
   width: 100%;
   height: 350px;
@@ -350,9 +351,21 @@ iframe {
   padding: 40px;
 }
 
+.opening-times-container li {
+  list-style-type: none;
+  font-family: "Overpass", sans-serif;
+  color: #696767;
+}
+
 .opening-times-image-container img {
   height: 350px;
   width: 100%;
+}
+
+.address-container ul {
+  list-style-type: none;
+  font-family: "Overpass", sans-serif;
+  color: #696767;
 }
 
 @media screen and (max-width: 768px) {
