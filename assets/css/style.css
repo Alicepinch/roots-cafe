@@ -86,7 +86,7 @@ a:hover {
   position: relative;
   height: 750px;
   padding-top: 75px;
-  background: url("roots-cafe/assets/images/hero-image.jpg") no-repeat top center fixed;
+  background: url("/roots-cafe/assets/images/hero-image.jpg") no-repeat top center fixed;
 }
 
 #cover-text {
