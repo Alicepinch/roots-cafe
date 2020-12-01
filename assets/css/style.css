@@ -104,6 +104,13 @@ a:hover {
   font-weight: 300;
 }
 
+#contact-header {
+  background-color: #a0ddbd;
+  height: 300px;
+  padding-top: 75px;
+  background: url("/../assets/images/hero-image.jpg") no-repeat top center fixed;
+}
+
 #menu-header {
   background-color: #a0ddbd;
   height: 300px;
@@ -124,13 +131,6 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-#contact-container {
-  background-color: #a0ddbd;
-  position: relative;
-  height: 650px;
-  background: url("/../assets/images/contact-us-background-image.jpg") no-repeat
-    top center fixed;
-}
 /*----------------- Divider ----*/
 
 .divider-green {
@@ -274,7 +274,11 @@ a:hover {
   font-size: 14px;
 }
 
-/*----------------- Contact Us form ----*/
+/*----------------- Contact Us page----*/
+
+.contact-heading {
+    padding-top: 60px;
+}
 
 #contact-container {
   background-color: #a0ddbd;
