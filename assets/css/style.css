@@ -412,7 +412,7 @@ iframe {
   height: 350px;
 }
 
-.address-times-container li {
+.address-times-container ul {
   list-style-type: none;
   font-family: "Overpass", sans-serif;
   color: #696767;
