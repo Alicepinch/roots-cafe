@@ -93,7 +93,7 @@ blockquote {
 
 /*---- End of overwritten bootstrap styling ---*/
 
-/*----------------- Hero Image and Background Images----*/
+/*----------------- Hero Image and Banner Images----*/
 
 #hero-image {
   background-color: #a0ddbd;
@@ -144,7 +144,7 @@ blockquote {
   background-color: #a0ddbd;
   height: 300px;
   padding-top: 75px;
-  background: url("/roots-cafe/assets/images/hero-image.jpg") no-repeat top
+  background: url("/roots-cafe/assets/images/visit-us-banner-image.jpg") no-repeat top
     center fixed;
 }
 
@@ -343,6 +343,15 @@ blockquote {
   font-size: 14px;
 }
 
+#carousel-container {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.carousel-heading {
+    padding-bottom: 10px;
+}
+
 /*----------------- Contact Us page----*/
 
 .contact-heading {
@@ -442,6 +451,10 @@ iframe {
     height: 150px;
     width: 100%;
   }
+
+  #cover-text h1 {
+    padding-top: 15px;
+}
 
   .instagram-handle {
     float: none;
