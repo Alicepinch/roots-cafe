@@ -57,7 +57,6 @@ blockquote {
 
 .active {
   color: #a0ddbd;
-  font-weight: 600;
 }
 
 .navbar a {
@@ -185,6 +184,10 @@ blockquote {
 
 #about-us {
   padding-top: 3rem;
+}
+
+.about-us-intro p {
+    margin: 0;
 }
 
 .about-us-cta {
@@ -402,7 +405,7 @@ blockquote {
 }
 
 #covid-update {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 #iframe-container {
@@ -469,11 +472,15 @@ iframe {
   }
 
   #find-us {
-      display: none;
+    display: none;
   }
 
   .address-times-container {
-      padding-top: 20px;
+    padding-top: 20px;
+  }
+
+  #about-us {
+    padding-top: 1.5rem;
   }
 }
 
