@@ -401,6 +401,10 @@ blockquote {
   padding-top: 60px;
 }
 
+#covid-update {
+    padding-top: 20px;
+}
+
 #iframe-container {
   width: 100%;
   height: 100%;
@@ -417,7 +421,6 @@ iframe {
   font-family: "Overpass", sans-serif;
   color: #696767;
 }
-
 
 /*-----Media Queries----*/
 
