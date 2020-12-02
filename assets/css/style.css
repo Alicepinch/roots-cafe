@@ -115,6 +115,11 @@ blockquote {
   top: 250px;
 }
 
+#cover-text h1 {
+    margin: 0;
+    padding-top: 25px;
+}
+
 #cover-text h3 {
   font-weight: 300;
 }
@@ -420,8 +425,7 @@ iframe {
 /*----- Phones ----*/
 
 @media screen and (max-width: 480px) {
-
-/*----Homepage ---*/
+  /*----Homepage ---*/
   .divider-white {
     width: 200px;
     margin: 0 auto;
@@ -451,11 +455,15 @@ iframe {
   }
 
   .vegetarian-menu-container img {
-    padding-top: 1em;
+    padding-top: 2em;
   }
 
   .coffee-mobile-container img {
-    padding-top: 1em;
+    padding-top: 2em;
+  }
+
+  .about-us-intro {
+    display: none;
   }
 
   /*----Visit us ---*/
@@ -477,7 +485,6 @@ iframe {
     padding-top: 20px;
   }
 }
-
 
 @media screen and (min-width: 768px) {
   .coffee-mobile-container {
