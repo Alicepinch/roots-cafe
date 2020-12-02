@@ -187,7 +187,7 @@ blockquote {
 }
 
 .about-us-intro p {
-    margin: 0;
+  margin: 0;
 }
 
 .about-us-cta {
@@ -195,6 +195,7 @@ blockquote {
   color: #fff;
   padding: 10px;
   border-radius: 30px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .about-us-cta:hover {
@@ -274,15 +275,12 @@ blockquote {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .instagram-img:hover {
   opacity: 0.6;
-  transition: all 200ms ease-in-out;
-}
-
-.instagram-gird img:hover {
-  transition: all 200ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
 
 .instagram-handle {
@@ -361,7 +359,7 @@ blockquote {
 }
 
 #form-container {
-  padding: 20px;
+  padding: 20px 20px 0px 20px;
 }
 
 #form-container a {
@@ -417,6 +415,7 @@ blockquote {
 iframe {
   width: 100%;
   height: 350px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .address-times-container ul {
