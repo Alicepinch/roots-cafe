@@ -27,7 +27,7 @@ From being both a new customer and existing customer for many Cafe's myself and 
 
 The main goal of the Roots website it to encourage potential new customers to chose this cafe over others in the area by providing them with all the information they may need. It also aims to keep existing customers informed on current situations which may have an effect on opening times of the cafe, and also to keep them up to date with the menu's and anything that might be new. 
 
-Business Goals:
+##### Business Goals:
 
 - Inform the customer of Menu options
 - Give the customers visuals of what the food looks like
@@ -46,7 +46,7 @@ Business Goals:
 - Visit the Cafe's social media platforms
 - View the opening times for the cafe.
 
-Future scope:
+#### Future scope:
 
 - The customer will be able to book a table through a Javascript booking system which would connect directly to the cafe.
 - Social media post's will be able to link directly from the gallery rather than current placeholder images.
@@ -158,13 +158,21 @@ User stories tested:
 
 ## Deployment
 
----
+This project was created in Gitpod workspaces and pushed to Github regularly. To deploy this project to github to process was:
+
+- Opened up my 'Roots-cafe' repository on github
+- Went to settings
+- Scrolled down to 'Github pages' section 
+- Selected the master branch as the source, saved these changes.
+- After refreshing the page my repo had been published 
+
+My roots cafe page can be accessed [here] (https://alicepinch.github.io/roots-cafe/)
+
 
 
 
 ## Credits
 
----
 
 ### Content
 
