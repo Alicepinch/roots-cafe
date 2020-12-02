@@ -467,6 +467,14 @@ iframe {
   .coffee-mobile-container img {
     padding-top: 2em;
   }
+
+  #find-us {
+      display: none;
+  }
+
+  .address-times-container {
+      padding-top: 20px;
+  }
 }
 
 @media screen and (min-width: 768px) {
