@@ -255,6 +255,16 @@ blockquote {
   object-fit: cover;
 }
 
+.instagram-img:hover {
+  opacity: 0.6;
+  transition: all 200ms ease-in-out;
+}
+
+.instagram-gird img:hover {
+    transition: all 200ms ease-in-out;
+    
+}
+
 .instagram-handle {
   float: right;
 }
@@ -363,9 +373,8 @@ blockquote {
 
 #iframe-container {
   width: 100%;
-  height:100%;
+  height: 100%;
   padding: 30px;
-  
 }
 
 iframe {
@@ -435,17 +444,16 @@ iframe {
   }
 
   .opening-times-image-container {
-      display: none;
+    display: none;
   }
 
   .opening-times-container {
-      padding-top: 20px;
+    padding-top: 20px;
   }
-  
 }
 
 @media screen and (min-width: 768px) {
   .coffee-mobile-container {
-      display: none;
+    display: none;
   }
 }
