@@ -417,7 +417,11 @@ iframe {
 
 /*-----Media Queries----*/
 
+/*----- Phones ----*/
+
 @media screen and (max-width: 480px) {
+
+/*----Homepage ---*/
   .divider-white {
     width: 200px;
     margin: 0 auto;
@@ -446,6 +450,16 @@ iframe {
     padding-top: 20px;
   }
 
+  .vegetarian-menu-container img {
+    padding-top: 1em;
+  }
+
+  .coffee-mobile-container img {
+    padding-top: 1em;
+  }
+
+  /*----Visit us ---*/
+
   .opening-times-container {
     padding-top: 20px;
     margin-bottom: 0;
@@ -463,6 +477,7 @@ iframe {
     padding-top: 20px;
   }
 }
+
 
 @media screen and (min-width: 768px) {
   .coffee-mobile-container {
