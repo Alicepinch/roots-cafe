@@ -119,8 +119,9 @@ blockquote {
   padding-top: 25px;
 }
 
-#cover-text h3 {
+#cover-text h2 {
   font-weight: 300;
+  padding-top:5px;
 }
 
 #contact-header {
@@ -442,6 +443,7 @@ iframe {
     margin: 0 auto;
     border-top: 2px solid rgb(160, 221, 189);
   }
+
   #cover-text {
     height: 150px;
     width: 100%;
