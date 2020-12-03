@@ -99,7 +99,7 @@ blockquote {
   position: relative;
   height: 750px;
   padding-top: 75px;
-  background: url("/roots-cafe/assets/images/hero-image.webp") no-repeat top
+  background: url("/roots-cafe/assets/images/hero-image.jpg") no-repeat top
     center fixed;
 }
 
@@ -172,14 +172,6 @@ blockquote {
   width: 100%;
   border-top: 2px solid rgb(160, 221, 189);
 }
-
-/*Borrowed code from W3schools "How to create a vertical line" edited*/
-/* .vertical-line {
-  border-left: 2px solid #696767;
-  height: 350px;
-  margin-left: -3px;
-} */
-/*End of borrowed code from W3schools "How to create a vertical line" edited*/
 
 /*----------------- About Us section----*/
 
@@ -489,5 +481,9 @@ iframe {
 @media screen and (min-width: 768px) {
   .coffee-mobile-container {
     display: none;
+  }
+
+  .divider-white {
+      width: 300px;
   }
 }
