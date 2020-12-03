@@ -121,7 +121,7 @@ blockquote {
 
 #cover-text h2 {
   font-weight: 300;
-  padding-top:5px;
+  padding-top: 5px;
 }
 
 #contact-header {
@@ -267,7 +267,7 @@ blockquote {
 .instagram-grid img {
   height: 100%;
   width: 100%;
-  
+
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -422,8 +422,9 @@ iframe {
 
 /*----- Phones ----*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   /*----Homepage ---*/
+
   .divider-white {
     width: 200px;
     margin: 0 auto;
@@ -477,12 +478,13 @@ iframe {
   }
 }
 
+
 @media screen and (min-width: 768px) {
   .coffee-mobile-container {
     display: none;
   }
 
   .divider-white {
-      width: 300px;
+    width: 300px;
   }
 }
