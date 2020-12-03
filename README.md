@@ -1,5 +1,9 @@
 # Roots Cafe
 
+[Roots Cafe Live Site](https://alicepinch.github.io/roots-cafe/)
+
+![Ami responsive Screenshot](/assets/readme/ami-responsive.png.jpg)
+
 This website is built for Roots cafe, a Vegetarian and Vegan Cafe. The website is built to inform customers on what food the Cafe offers via the menu & gallery section. An about us section with some background on why this was started, and also the location for customers to find the Cafe as well as a form to get in contact/book.
 
 ## UX
@@ -10,7 +14,7 @@ The UX goal for this website is to ensure the website is as clear as possible fo
 From being both a new customer and existing customer for many Cafe's myself and also asking friends and family and doing some online research I came up with these user stories.
 
 #### New customer: 
-- As a new customer I would want to learn a little about the cafe.
+- As a new customer I would want to learn about Roots.
 - As a new customer I would like to know the opening times of the cafe.
 - As a new customer I would like to know where the cafe is located and how to get there.
 - As a new customer I would like to be able to get in contact with the cafe if I had any questions.
@@ -126,13 +130,14 @@ Future features to be implemented:
 ### Other tools used
 
 - Procreate - Used to create the "Cafe Name" logo
-- Font awesome - Used for the logos in the Visit us section
+- Font awesome - Used for the logos in the Visit us section and homepage.
 - Google fonts - To import "Overpass and Raleway" to be used across the website
 - Bootstrap - To help with creating a responsive website using their grid system and code used for Navigation and carousel
 - Balsamiq - To create the wireframes for Desktop, Tablet and Phone.
 - Gimp - Used to resize images
-- W3Schools 
-- Stackoverflow
+- Tinypng - Ran all images through tinypng to compress them
+- W3Schools - for small code questions throughout my project
+- Stackoverflow - 
 - [Canva](https://www.canva.com/colors/color-palette-generator/) - Used to create the colour pallet
 
 ## Testing
@@ -145,6 +150,7 @@ Whilst using developer tools I noticed that the cover text on the Hero image was
 
 ### Navbar Hamburger Menu:
 Due to removing the Bootstrap styling from the navbar the hamburger icon disappeared. To fix this I added in a fontawesome icon to the span class "navbar-toggler-icon". The navbar wasn't centered so I added in CSS styling 'padding-top: 5px;" which fixed this. 
+I have clearly mentioned in my CSS where I have overwritten some of the bootstrap styling. 
 
 ### Lighthouse:
 Throughout the building process I was checking my website's performance using lighthouse in the developer tools. 
@@ -168,9 +174,6 @@ This project was created in Gitpod workspaces and pushed to Github regularly. To
 
 My roots cafe page can be accessed [here] (https://alicepinch.github.io/roots-cafe/)
 
-
-
-
 ## Credits
 
 
@@ -183,9 +186,10 @@ All content is self written however some knowledge has been taken from the below
 
 ### Media
 
-The photos used in this site were obtained from:
+The photos used in this site were all copyright free and obtained from the following websites:
 
 - https://www.rawpixel.com/
+- https://www.pexels.com/photo/vegetable-sandwich-on-plate-1095550/
 
 ### Acknowledgements
 
