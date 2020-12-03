@@ -103,6 +103,15 @@ blockquote {
     center fixed;
 }
 
+#hero-image-mobile {
+  background-color: #a0ddbd;
+  position: relative;
+  height: 750px;
+  padding-top: 75px;
+  background: url("/roots-cafe/assets/images/hero-image-mobile-view.jpg") no-repeat top
+    center fixed;
+}
+
 /*-------- Code taken and adjusted from love running mini project ----*/
 
 #cover-text {
@@ -261,7 +270,7 @@ blockquote {
 }
 
 .trip-advisor-quote {
-    padding: 1.5rem;
+  padding: 1.5rem;
 }
 
 /*----------------- Instagram Container ----*/
@@ -364,7 +373,7 @@ blockquote {
 }
 
 #form-container {
-    padding: 20px 20px 0px 20px;
+  padding: 20px 20px 0px 20px;
 }
 
 #form-container a {
@@ -438,6 +447,10 @@ iframe {
     border-top: 2px solid rgb(255, 255, 255);
   }
 
+  #hero-image {
+      display: none;
+  }
+
   #cover-text {
     height: 150px;
     width: 100%;
@@ -493,5 +506,9 @@ iframe {
 
   .divider-white {
     width: 300px;
+  }
+
+  #hero-image-mobile-view {
+      display: none;
   }
 }
