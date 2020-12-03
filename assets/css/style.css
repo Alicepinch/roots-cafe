@@ -128,7 +128,7 @@ blockquote {
   background-color: #a0ddbd;
   height: 300px;
   padding-top: 75px;
-  background: url("/roots-cafe/assets/images/hero-image.webp") no-repeat top
+  background: url("/roots-cafe/assets/images/hero-image.jpg") no-repeat top
     center fixed;
 }
 
@@ -430,12 +430,6 @@ iframe {
     border-top: 2px solid rgb(255, 255, 255);
   }
 
-  .divider-green {
-    width: 300px;
-    margin: 0 auto;
-    border-top: 2px solid rgb(160, 221, 189);
-  }
-
   #cover-text {
     height: 150px;
     width: 100%;
@@ -475,6 +469,11 @@ iframe {
 
   #about-us {
     padding-top: 1.5rem;
+  }
+  .divider-green {
+    width: 300px;
+    margin: 0 auto;
+    border-top: 2px solid rgb(160, 221, 189);
   }
 }
 
