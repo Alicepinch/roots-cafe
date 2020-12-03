@@ -128,7 +128,7 @@ blockquote {
   height: 750px;
   padding-top: 75px;
   background: url("/roots-cafe/assets/images/contact-us-background-image.jpg")
-    no-repeat top center;
+    no-repeat top center fixed;
 }
 
 #menu-header {
@@ -476,7 +476,7 @@ iframe {
   #about-us {
     padding-top: 1.5rem;
   }
-  
+
   .divider-green {
     width: 300px;
     margin: 0 auto;
