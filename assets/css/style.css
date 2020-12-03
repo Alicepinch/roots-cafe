@@ -124,12 +124,11 @@ blockquote {
   padding-top: 5px;
 }
 
-#contact-header {
-  background-color: #a0ddbd;
-  height: 300px;
+#contact-background {
+  height: 750px;
   padding-top: 75px;
-  background: url("/roots-cafe/assets/images/hero-image.jpg") no-repeat top
-    center fixed;
+  background: url("/roots-cafe/assets/images/contact-us-background-image.jpg") no-repeat top
+    center;
 }
 
 #menu-header {
@@ -477,7 +476,6 @@ iframe {
     border-top: 2px solid rgb(160, 221, 189);
   }
 }
-
 
 @media screen and (min-width: 768px) {
   .coffee-mobile-container {

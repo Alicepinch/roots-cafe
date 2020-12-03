@@ -23,6 +23,7 @@
     <link rel="icon" href="assets/images/favicon.png" />
     <title>Roots Cafe | Contact Us</title>
   </head>
+
   <body>
     <!----Navigation and Mobile Navigation taken from Bootstrap but customized --->
 
@@ -68,93 +69,101 @@
     </header>
     <!----/.Navigation and Mobile Navigation--->
 
-    <!-----Contact Header--->
-    <section id="contact-header">
+    <!----- Form Background--->
+    <section id="contact-background">
       <div class="overlay">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-12 text-center">
+            <div class="col text-center">
               <h1 class="contact-heading">Contact Us</h1>
               <hr class="divider-green" />
+
+              <!----Contact form--->
+
+              <section id="contact-form-outer-container">
+                <div class="container text-center" id="form-container">
+                  <p>
+                    Got a question for us? Please fill out the form below.
+                    <br />
+                    Or give us a call on:
+                    <a href="tel:+23423042340" aria-label="Phone Number"
+                      >+23423042340</a
+                    >
+                    or email us directly at
+                    <a
+                      href="mailto:rootscafe@roots.com"
+                      aria-label="Email Address"
+                      >rootscafe@roots.com</a
+                    >
+                  </p>
+                  <form action="#" method="POST">
+                    <div class="row">
+                      <div class="form-input col-12 col-md-6">
+                        <input
+                          type="text"
+                          id="fname"
+                          placeholder="First Name"
+                          class="form-field"
+                          name="fname"
+                          required
+                        />
+                      </div>
+                      <div class="form-input col-12 col-md-6">
+                        <input
+                          type="text"
+                          id="lname"
+                          placeholder="Last Name"
+                          class="form-field"
+                          name="lname"
+                          required
+                        />
+                      </div>
+                      <div class="form-input col-12">
+                        <input
+                          type="email"
+                          id="email"
+                          placeholder="Email Address"
+                          class="form-field"
+                          name="email"
+                          required
+                        />
+                      </div>
+                      <div class="form-input col-12">
+                        <input
+                          type="text"
+                          id="subject"
+                          placeholder="Subject"
+                          class="form-field"
+                          name="subject"
+                          required
+                        />
+                      </div>
+                      <div class="form-input col-12">
+                        <textarea
+                          id="message"
+                          rows="5"
+                          placeholder="Message"
+                          class="form-field"
+                          name="message"
+                        ></textarea>
+                      </div>
+                      <div class="form-input col-12">
+                        <button type="submit" class="btn btn-submit">
+                          Submit
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </section>
+
+              <!----/. Contact form---->
+              
             </div>
           </div>
         </div>
       </div>
     </section>
-
-    <!-----Contact form---->
-    <section id="contact-form-outer-container">
-      <div class="container text-center" id="form-container">
-        <p>
-          Got a question for us? Please fill out the form below.
-          <br />
-          Or give us a call on:
-          <a href="tel:+23423042340" aria-label="Phone Number">+23423042340</a>
-          or email us directly at
-          <a href="mailto:rootscafe@roots.com" aria-label="Email Address"
-            >rootscafe@roots.com</a
-          >
-        </p>
-        <form action="#" method="POST">
-          <div class="row">
-            <div class="form-input col-12 col-md-6">
-              <input
-                type="text"
-                id="fname"
-                placeholder="First Name"
-                class="form-field"
-                name="fname"
-                required
-              />
-            </div>
-            <div class="form-input col-12 col-md-6">
-              <input
-                type="text"
-                id="lname"
-                placeholder="Last Name"
-                class="form-field"
-                name="lname"
-                required
-              />
-            </div>
-            <div class="form-input col-12">
-              <input
-                type="email"
-                id="email"
-                placeholder="Email Address"
-                class="form-field"
-                name="email"
-                required
-              />
-            </div>
-            <div class="form-input col-12">
-              <input
-                type="text"
-                id="subject"
-                placeholder="Subject"
-                class="form-field"
-                name="subject"
-                required
-              />
-            </div>
-            <div class="form-input col-12">
-              <textarea
-                id="message"
-                rows="5"
-                placeholder="Message"
-                class="form-field"
-                name="message"
-              ></textarea>
-            </div>
-            <div class="form-input col-12">
-              <button type="submit" class="btn btn-submit">Submit</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </section>
-
-    <!-----/.Contact form---->
 
     <!----Footer --->
     <footer>
