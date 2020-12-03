@@ -260,6 +260,10 @@ blockquote {
   color: #6ba688;
 }
 
+.trip-advisor-quote {
+    padding: 1.5rem;
+}
+
 /*----------------- Instagram Container ----*/
 
 #instagram-container {
@@ -360,7 +364,7 @@ blockquote {
 }
 
 #form-container {
-  padding: 20px 20px 0px 20px;
+    padding: 20px 20px 0px 20px;
 }
 
 #form-container a {
