@@ -139,23 +139,21 @@ blockquote {
 #contact-background {
   height: 750px;
   padding-top: 75px;
-  background: url("/roots-cafe/assets/images/contact-us-background-image.jpg")
+  background: #a0ddbd, url("/roots-cafe/assets/images/contact-us-background-image.jpg")
     no-repeat top center;
 }
 
 #menu-header {
-  background-color: #a0ddbd;
   height: 300px;
   padding-top: 75px;
-  background: url("/roots-cafe/assets/images/menu-banner-image.jpg") no-repeat
+  background: #a0ddbd, url("/roots-cafe/assets/images/menu-banner-image.jpg") no-repeat
     top center fixed;
 }
 
 #visit-header {
-  background-color: #a0ddbd;
   height: 300px;
   padding-top: 75px;
-  background: url("/roots-cafe/assets/images/visit-us-banner-image.jpg")
+  background: #a0ddbd, url("/roots-cafe/assets/images/visit-us-banner-image.jpg")
     no-repeat top center fixed;
 }
 
