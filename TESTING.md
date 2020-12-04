@@ -175,42 +175,56 @@ All other pages passed when running through the WS3 code validator, the only err
 
 This website has been cross checked on Safari, Chrome and Firefox and works in all of them. 
 
-The has also been run through [Ami Responsive](http://ami.responsivedesign.is/). 
-I also send this link out to some family and friends to check both the UX and to test that everything was working. 
+This has also been run through [Ami Responsive](http://ami.responsivedesign.is/). 
+I also sent this link out to some family and friends to check both the UX and to test that everything was working. 
 
 - Above I have mentioned how when testing in different screen sizes I encountered some issues and how I fixed these for the Hero Image and cover text.
 
 ### User stories tested:
 ---
 
-#### New customer 
+#### New customer:
 
-User Story: As a new customer I would want to learn about Roots.
+**User Story:** As a new customer I would want to learn about Roots.
 - When a customer lands on the Roots homepage, they can scroll down to the about us section where it tells them a little bit about roots and what they offer.
 
-User Story: As a new customer I would like to know the opening times of the cafe.
+**User Story:** As a new customer I would like to know the opening times of the cafe.
 - A customer can access the opening times by clicking on the 'Visit' page in the fixed navigation.
 
-User Story: As a new customer I would like to know where the cafe is located and how to get there.
-- A customer can view a map with the address with the written address next to this by clicking on the 'Visit' page in the fixed navigation.
+**User Story:** As a new customer I would like to know where the cafe is located and how to get there.
+- A customer can view a map with the written address next to this by clicking on the 'Visit' page in the fixed navigation.
 
-User Story: As a new customer I would like to be able to get in contact with the cafe if I had any questions.
-- A customer can get in contact through the contact us form linked fromthe fixed navigation.
+**User Story:** As a new customer I would like to be able to get in contact with the cafe if I had any questions.
+- A customer can get in contact through the contact us form linked from the fixed navigation. They will also have access to quick contact details from the footer on the bottom of each page. 
 
-User Story: As a new customer I would like some visuals of what to expect from the cafe.
-- A customer can view the instagram feed at the bottom of the homepage or the carousel of images on the menu page.
+**User Story:** As a new customer I would like some visuals of what to expect from the cafe.
+- A customer can view the instagram feed at the bottom of the homepage or the carousel of images on the menu page. The customer will also get a feel for the Cafe through the colour scheme and images used across the site. 
 
-User Story: As a new customer I would like to see some reviews from previous customers.
+**User Story:** As a new customer I would like to see some reviews from previous customers.
 - A customer can view customer reviews via the 'Customer reviews section' on the homepage. This also links through to trip advisor where they could view more if the cafe was real.
 
 #### Existing customer:
 
-User Story: As a customer who has already visited Roots cafe before I would like to be able to view the menu to see if anything new has been added/ to plan what I will eat.
+**User Story:** As a customer who has already visited Roots cafe before I would like to be able to view the menu to see if anything new has been added/ to plan what I will eat.
 - A customer can click through to the menu from the fixed navigation bar at the top of the page. 
 
- User Story:As a new customer I would like to be able to get in contact to book a table/ if I have any questions.
+**User Story:** As a new customer I would like to be able to get in contact to book a table/ if I have any questions.
 - A customer can click through to the contact page from the fixed navitation bar at the top of the page. They are also provided with quick contact details via the footer on each page. 
 
-User Story: As a new customer I would like to know the steps being taken to keep up with the current climate.
-- If a customer is planning to visit a customer can find the covid update when they go to the 'Visit' page in the fixed navigation. 
+**User Story:** As a new customer I would like to know the steps being taken to keep up with the current climate.
+- If a customer is planning to visit then they can find the covid update when they go to the 'Visit' page in the fixed navigation. 
+
+### Form Testing:
+---
+
+The contact us form has been tested with different scenarios.
+
+- When an empty form was submitted. The webpage promted me to fill in the first mandatory field. 
+- I them filled each form field in one after another then submitted to check that all required form fields were working until a succesful form was submitted. 
+   - Whilst testing the form I noticed that the 'textarea' element was not a required field so I fixed this.
+- The form was filled in with a invalid email address. (Missing ".co.uk") form was not submitted.
+- When all form fields were completed correctly the form was submitted.
+
+Please note that when submitting this form it will lead to a 405 error, this is because it isn't linked up to go through to anywhere at the moment.
+
 
