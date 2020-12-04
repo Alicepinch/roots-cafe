@@ -2,7 +2,7 @@
 
 [Roots Cafe Live Site](https://alicepinch.github.io/roots-cafe/)
 
-![Ami responsive Screenshot](/roots-cafe/assets/readme/ami-responsive.png.jpg)
+![Ami responsive Screenshot](/../assets/readme/ami-responsive.png)
 
 This website is built for Roots cafe, a Vegetarian and Vegan Cafe. The website is built to inform customers on what food the Cafe offers via the menu & gallery section. An about us section with some background on why this was started, and also the location for customers to find the Cafe as well as a form to get in contact/book.
 
@@ -30,10 +30,11 @@ From being both a new customer and existing customer for many Cafe's myself and 
 - As a new customer I would like to know the steps being taken to keep up with the current climate.
 
 ### Strategy
+---
 
 The main goal of the Roots website it to encourage potential new customers to chose this cafe over others in the area by providing them with all the information they may need. It also aims to keep existing customers informed on current situations which may have an effect on opening times of the cafe, and also to keep them up to date with the menu's and anything that might be new.
 
-##### Business Goals:
+#### Business Goals:
 
 - Inform the customer of Menu options
 - Give the customers visuals of what the food looks like
@@ -41,6 +42,7 @@ The main goal of the Roots website it to encourage potential new customers to ch
 - Encourgage customers to book a table/ get in contact
 
 ### Scope
+---
 
 - User will be able to find the location of Roots Cafe via the 'Visit Us Section'
 - User will be able to view some reviews from previous customers
@@ -55,9 +57,11 @@ The main goal of the Roots website it to encourage potential new customers to ch
 
 - The customer will be able to book a table through a Javascript booking system which would connect directly to the cafe.
 - Social media post's will be able to link directly from the gallery rather than current placeholder images.
-- A review system will be in place or linked directly from trip advisor etc.
+- A review system will be in place or linked directly from trip advisor. 
+- A subscription option will be available for customers to keep up to date with all the latest at roots.
 
 ### Structure
+---
 
 The structe of this website will be a linear structre with no subpages. The navigation on the top will include. Home, Menu, Visit , Contact.
 
@@ -73,52 +77,60 @@ The structe of this website will be a linear structre with no subpages. The navi
 #### Visit Us
 
 - Will include all the information on how the customer can visit Roots cafe
-- Will also include the opening times
+- Opening times will also be included.
 - Customers will be able to click through to the contact page.
 
 #### Contact:
 
-- This page will include a contact/basic reservation form for customers including a phone number.
+- This page will include a contact form for customers including a phone number.
 
 ### Skeleton
+---
 
 Each page will have the same navigation links for customers to easily navigate back and forth through Pages
 Wireframes were created using balsamiq and the final wireframes can be accessed below:
 
-Original Wireframes:
-
-Reasons for change:
+- [Contact us wireframe](/roots-cafe/assets/readme/wireframes/contact-page-phone-desktop-wireframe.png)
+- [Homepage wireframe](/roots-cafe/assets/readme/wireframes/homepage-phone-desktop-wireframe.png)
+- [Visit wireframe](/roots-cafe/assets/readme/wireframes/visit-us-desktop-wireframe.png)
+- [Menu wireframe](/roots-cafe/assets/readme/wireframes/menu-phone-desktop-wireframe.png)
 
 ### Surface:
+---
 
 #### Design:
 
-For the overall design of this project I wanted it to be very simple, clean and crisp with not too much going on but enough to portray all the information I needed in a professional way.
+For the overall design of this project I wanted it to be simple, clean and crisp with not too much going on which may overwhelm the customer.
 
 #### Typography:
 
-The fonts that I decided to use for this project are Overpass and Raleway as they go together well. The fall back font that I used is sans-sherif.
+The first font that I decided to use for this project was Overpass from Googlefonts, it was recommended that Raleway complimeneted this font well so I chose to use this alongside. The fall back font that I used is sans-sherif.
 Raleway has been used for headers and overpass has been used for body text.
 
 #### Colour Scheme
 
-(Link to colour pallett)
+As the colour green is normally associated with Vegetarianism and Veganism, I decided to use green as my main colour focus for this project. I want my website to be clean and crisp therefore I chose to stick with only green and not introduce any other bold colours.
+For links and CTA's I have used the lighter green, and the darker green for when hoving over for contrast. I decided on a dark grey for the font colour and white for the background. I have also used the light green colour as background for some sections across the website to create consitency and break up the white.
+![Colour Pallet](/../assets/readme/canva-colour-wheel-roots-cafe.jpg)
 
 ## Features
 
-- Basic contact form which will go through to an email
+- Basic contact form
 - iFrame Google Map to show the location of the coffee shop
-- Hero Image
+- Hero Image and banner images
 - Gallery/carousel images to showcase a range of product photos from the menu
 - About us section.
-- Fixed footer which will give customers access to all of the social media platforms and quick contact information.
+- Fixed footer with acccess to all the social media platforms and quick contact information.
 - Responsive webpage which is optimized for Large, medium and small screens.
 - Fixed navigation bar with the company logo to allow customers easy access to all pages at any time.
+- Hamburger menu when in smaller screens.
 
 Future features to be implemented:
 
 - A reviews section from either google reviews or trip advisor or trust pilot.
 - A booking system which displays all available dates and times.
+- The form will go through to an automated system.
+- A sign up subscription modal.
 
 ## Technologies Used
 
@@ -130,25 +142,24 @@ Future features to be implemented:
 
 ### Other tools used
 
-- Procreate - Used to create the "Cafe Name" logo
-- Font awesome - Used for the logos in the Visit us section and homepage.
-- Google fonts - To import "Overpass and Raleway" to be used across the website
-- Bootstrap - To help with creating a responsive website using their grid system and code used for Navigation and carousel
-- Balsamiq - To create the wireframes for Desktop, Tablet and Phone.
-- Gimp - Used to resize images
-- Tinypng - Ran all images through tinypng to compress them
-- W3Schools - For small code questions throughout my project
-- Stackoverflow - Used to assist with small code questions
+- [Procreate](https://procreate.art/) - Used to create the "Cafe Name" logo
+- [Font awesome](https://fontawesome.com/) - Used for the logos in the Visit us section and homepage.
+- [Google fonts](https://fonts.google.com/)- To import "Overpass and Raleway" to be used across the website
+- [Bootstrap](https://getbootstrap.com/)- To help with creating a responsive website using their grid system and code used for Navigation and carousel
+- [Balsamiq](https://balsamiq.com/wireframes/desktop/) - To create the wireframes for Desktop, Tablet and Phone.
+- [Gimp](https://www.gimp.org/) - Used to resize images
+- [Tinypng](https://tinypng.com/) - Ran all images through tinypng to compress them
+- [W3Schools](https://www.w3schools.com/cssref/css_selectors.asp) - For small code questions throughout my project
+- [Stackoverflow](https://www.w3schools.com/cssref/css_selectors.asp) - Used to assist with small code questions
 - [Canva](https://www.canva.com/colors/color-palette-generator/) - Used to create the colour pallet
 
 ## Testing
 
 All the testing carried out for Roots cafe can be found [here](TESTING.md)
-  
 
 ## Deployment
 
-This project was created in Gitpod workspaces and pushed to Github regularly. To deploy this project to github to process was:
+This project was created in Gitpod workspaces and pushed to Github regularly. To deploy this project to github the process was:
 
 - Opened up the 'Roots-cafe'repository on github
 - Went to settings
@@ -157,6 +168,8 @@ This project was created in Gitpod workspaces and pushed to Github regularly. To
 - After refreshing the page my repo had been published
 
 My roots cafe page can be accessed via: https://alicepinch.github.io/roots-cafe/
+
+### Cloning: 
 
 ## Credits
 
@@ -174,7 +187,7 @@ Help with the COVID noticed on the 'Visit us' page were taken from these two res
 
 ### Media
 
-The photos used in this site were all copyright free and gained from from the following websites:
+The photos used in this site were all copyright free and taken from from the following websites:
 
 - https://www.rawpixel.com/
 - https://www.pexels.com/photo/vegetable-sandwich-on-plate-1095550/
