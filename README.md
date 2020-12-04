@@ -2,11 +2,7 @@
 
 [Roots Cafe Live Site](https://alicepinch.github.io/roots-cafe/)
 
-<<<<<<< HEAD
 ![Ami responsive Screenshot](/roots-cafe/assets/readme/ami-responsive.png)
-=======
-![Ami responsive Screenshot](/../assets/readme/ami-responsive.png)
->>>>>>> 152af77027444437e80e7647cc6834a3e2a6dc48
 
 This website is built for Roots cafe, a Vegetarian and Vegan Cafe. The website is built to inform customers on what food the Cafe offers via the menu & gallery section. An about us section with some background on why this was started, and also the location for customers to find the Cafe as well as a form to get in contact/book.
 
@@ -86,15 +82,6 @@ Will include an Address and a map for if customers want to visit, Opening times 
 
 This page will include a basic contact form and a linked phone number and email address.
 
-=======
-- Will include all the information on how the customer can visit Roots cafe
-- Opening times will also be included.
-- Customers will be able to click through to the contact page.
-
-#### Contact:
-
-- This page will include a contact form for customers including a phone number.
->>>>>>> 152af77027444437e80e7647cc6834a3e2a6dc48
 
 ### Skeleton
 ---
@@ -157,7 +144,6 @@ Future features to be implemented:
 - [Procreate](https://procreate.art/) - Used to create the "Cafe Name" logo
 - [Font awesome](https://fontawesome.com/) - Used for the logos in the Visit us section and homepage.
 - [Google fonts](https://fonts.google.com/)- To import "Overpass and Raleway" to be used across the website
-<<<<<<< HEAD
 - [Bootstrap](https://getbootstrap.com/)- To help with creating a responsive website using their grid system and code used for Navigation and carousel (credited in code)
 - [Balsamiq](https://balsamiq.com/wireframes/desktop/) - To create the wireframes for Desktop, Tablet and Phone.
 - [Gimp](https://www.gimp.org/) - Used to resize images.
