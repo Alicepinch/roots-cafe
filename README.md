@@ -2,7 +2,7 @@
 
 [Roots Cafe Live Site](https://alicepinch.github.io/roots-cafe/)
 
-![Ami responsive Screenshot](/roots-cafe/assets/readme/ami-responsive.png)
+![Ami responsive Screenshot](/docs/readme/ami-responsive.png)
 
 This website is built for Roots cafe, a Vegetarian and Vegan Cafe. The website is built to inform customers on what food the Cafe offers via the menu & gallery section. An about us section with some background on why this was started, and also the location for customers to find the Cafe as well as a form to get in contact/book.
 
@@ -75,7 +75,6 @@ The menu page Will include the full menu for the customer. This will also includ
 
 #### Visit Us
 
-<<<<<<< HEAD
 Will include an Address and a map for if customers want to visit, Opening times and a COVID update
 
 #### Contact:
@@ -89,10 +88,10 @@ This page will include a basic contact form and a linked phone number and email 
 Each page will have the same navigation links for customers to easily navigate back and forth through Pages
 Wireframes were created using balsamiq and the final wireframes can be accessed below:
 
-- [Contact us wireframe](/roots-cafe/assets/readme/wireframes/contact-page-phone-desktop-wireframe.png)
-- [Homepage wireframe](/roots-cafe/assets/readme/wireframes/homepage-phone-desktop-wireframe.png)
-- [Visit wireframe](/roots-cafe/assets/readme/wireframes/visit-us-desktop-wireframe.png)
-- [Menu wireframe](/roots-cafe/assets/readme/wireframes/menu-phone-desktop-wireframe.png)
+- [Contact us wireframe](/docs/wireframes/contact-page-phone-desktop-wireframe.png)
+- [Homepage wireframe](/docs/wireframe/wireframes/homepage-phone-desktop-wireframe.png)
+- [Visit wireframe](/docs/wireframes/visit-us-desktop-wireframe.png)
+- [Menu wireframe](/docs/wireframes/menu-phone-desktop-wireframe.png)
 
 ### Surface:
 ---
@@ -110,7 +109,7 @@ Raleway has been used for headers and overpass has been used for body text.
 
 As the colour green is normally associated with Vegetarianism and Veganism, I decided to use green as my main colour focus for this project. I want my website to be clean and crisp therefore I chose to stick with only green and not introduce any other bold colours.
 For links and CTA's I have used the lighter green, and the darker green for when hoving over for contrast. I decided on a dark grey for the font colour and white for the background. I have also used the light green colour as background for some sections across the website to create consitency and break up the white.
-![Colour Pallet](/../assets/readme/canva-colour-wheel-roots-cafe.jpg)
+![Colour Pallet](/docs/readme/canva-colour-wheel-roots-cafe.jpg)
 
 ## Features
 
@@ -170,6 +169,9 @@ This project was created in Gitpod workspaces and pushed to Github regularly. To
 My roots cafe page can be accessed via: https://alicepinch.github.io/roots-cafe/
 
 ### Cloning: 
+
+In order to clone a local copy to your to your computer you need to follow the following steps. 
+
 
 ## Credits
 
