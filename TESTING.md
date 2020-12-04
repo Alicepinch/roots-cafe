@@ -8,6 +8,8 @@ Throughout the building process of the website I checked the Developer tools to 
 
 Whilst using developer tools I noticed that the cover text and divider were not responsive on the Hero image, to fix this I added in the below media queries for mobile view for the cover text ID.
 
+Code: 
+
 ```
 
 @media screen and (max-width: 480px) {
@@ -31,6 +33,8 @@ Whilst using developer tools I noticed that the cover text and divider were not 
 
 When checking ami-responsive the white divider was overlapping the cover text background so I added the below media query to reduce the size of the divider for ipad:
 
+Code: 
+
 ```
 
 @media screen and (min-width: 768px) {
@@ -42,9 +46,8 @@ When checking ami-responsive the white divider was overlapping the cover text ba
 
 ### Hero Image
 ---
-Due to the style of image that I used for the hero image, in phone view there was a lot of blank space. 
-
-In order to fix this I added in a Mobile hero image section to my code, this is clearly outlined in my comments. I then hid the original Hero Image section for mobile view and did the same for the mobile view section for larger screen sizes. 
+Due to the style of image that I used for the hero image, in phone view there was a lot of blank space and wasn't the best UX. 
+In order to fix this I added in a Mobile hero image section to my code, this is clearly outlined in my comments in my [index.html](index.html) code. I then hid the original Hero Image section for mobile view and did the same for the mobile view section for larger screen sizes. 
 
 - [Before](/docs/testing/hero-image-before-fix.jpg)
 - [After](/docs/testing/hero-image-mobile-view.png)
@@ -71,12 +74,13 @@ Code:
 ### About us section 
 ---
 When in phone view I noticed that the layout didnt look great for the about us section. 
-To fix this I duplicated the "id="sustainable-coffee-container" and added in a Mobile coffee section which would only show in mobile view. This is clearly commented out in the [index.html](index.html) file. 
+To fix this I duplicated the Sustainable Coffee Container and added in a Mobile coffee section. This is clearly commented out in my [index.html](index.html) file. 
 
-In the CSS I set the original section "id="sustainable-coffee-container" for smaller screen sizes as "display: none;" 
+In the CSS I set the original container "id="sustainable-coffee-container" for smaller screen sizes as "display: none;" 
 So that in smaller screen sizes the new section "id="mobile-coffee-container"" would show. 
+I then made sure that on larger screen size the "mobile-coffee-container" would not show.
 
-I then made sure that on larger screen sized the "mobile-coffee-container" would not show.
+Code: 
 
 ``` {
 @media screen and (min-width: 768px) {
@@ -100,7 +104,7 @@ I then made sure that on larger screen sized the "mobile-coffee-container" would
 ---
 
 Due to removing the Bootstrap styling from the navbar the hamburger icon disappeared. To fix this I added in a fontawesome icon to the span class "navbar-toggler-icon". The navbar wasn't centered so I added in CSS styling 'padding-top: 5px;" which fixed this.
-I have clearly mentioned in my [CSS stylesheet](https://www.example.com) where I have overwritten some of the bootstrap styling to achieve this.
+I have clearly mentioned in my [CSS stylesheet](style.css) where I have overwritten some of the bootstrap styling to achieve this.
 
 ### Lighthouse:
 
@@ -166,16 +170,47 @@ When running my code through the CSS validator no errors were found:
 
 All other pages passed when running through the WS3 code validator, the only errors which returned were in regards to the comments in my code. 
 
-### Browsers & Screen sizes:
+### Usability Testing:
 ---
 
-This website has been cross checked on all different browsers to ensure that it works the same.
+This website has been cross checked on Safari, Chrome and Firefox and works in all of them. 
 
-I also ran the website through [Ami Responsive](http://ami.responsivedesign.is/) and had family and friends check on their desktops and phones to check that everything performed correctly.
+The has also been run through [Ami Responsive](http://ami.responsivedesign.is/). 
+I also send this link out to some family and friends to check both the UX and to test that everything was working. 
 
-I also checked Developer tools throughout the building process however found that this could sometimes be buggy. 
-
-- Above I have mentioned how when testing in different screen sizes I encountered some issues and how I fixed these for the Hero Image and the cover text.
+- Above I have mentioned how when testing in different screen sizes I encountered some issues and how I fixed these for the Hero Image and cover text.
 
 ### User stories tested:
 ---
+
+#### New customer 
+
+User Story: As a new customer I would want to learn about Roots.
+- When a customer lands on the Roots homepage, they can scroll down to the about us section where it tells them a little bit about roots and what they offer.
+
+User Story: As a new customer I would like to know the opening times of the cafe.
+- A customer can access the opening times by clicking on the 'Visit' page in the fixed navigation.
+
+User Story: As a new customer I would like to know where the cafe is located and how to get there.
+- A customer can view a map with the address with the written address next to this by clicking on the 'Visit' page in the fixed navigation.
+
+User Story: As a new customer I would like to be able to get in contact with the cafe if I had any questions.
+- A customer can get in contact through the contact us form linked fromthe fixed navigation.
+
+User Story: As a new customer I would like some visuals of what to expect from the cafe.
+- A customer can view the instagram feed at the bottom of the homepage or the carousel of images on the menu page.
+
+User Story: As a new customer I would like to see some reviews from previous customers.
+- A customer can view customer reviews via the 'Customer reviews section' on the homepage. This also links through to trip advisor where they could view more if the cafe was real.
+
+#### Existing customer:
+
+User Story: As a customer who has already visited Roots cafe before I would like to be able to view the menu to see if anything new has been added/ to plan what I will eat.
+- A customer can click through to the menu from the fixed navigation bar at the top of the page. 
+
+ User Story:As a new customer I would like to be able to get in contact to book a table/ if I have any questions.
+- A customer can click through to the contact page from the fixed navitation bar at the top of the page. They are also provided with quick contact details via the footer on each page. 
+
+User Story: As a new customer I would like to know the steps being taken to keep up with the current climate.
+- If a customer is planning to visit a customer can find the covid update when they go to the 'Visit' page in the fixed navigation. 
+
