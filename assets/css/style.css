@@ -99,7 +99,7 @@ blockquote {
   position: relative;
   height: 750px;
   padding-top: 75px;
-  background: url("/roots-cafe/assets/images/hero-image.jpg") no-repeat top
+  background: url("/../assets/images/hero-image.jpg") no-repeat top
     center fixed;
 }
 
@@ -480,6 +480,8 @@ iframe {
     padding-top: 2em;
   }
 
+  /*----- Visit us----*/ 
+
   #find-us {
     display: none;
   }
@@ -493,7 +495,7 @@ iframe {
   }
 
   .divider-green {
-    width: 300px;
+    width: 200px;
     margin: 0 auto;
     border-top: 2px solid rgb(160, 221, 189);
   }
