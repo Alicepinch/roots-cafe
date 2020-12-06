@@ -89,8 +89,8 @@ Each page will have the same navigation links for customers to easily navigate b
 Wireframes were created using balsamiq and the final wireframes can be accessed below:
 
 - [Contact us wireframe](/docs/wireframes/contact-page-phone-desktop-wireframe.png)
-- [Homepage wireframe](/docs/wireframe/wireframes/homepage-phone-desktop-wireframe.png)
-- [Visit wireframe](/docs/wireframes/visit-us-desktop-wireframe.png)
+- [Homepage wireframe](/docs/wireframes/homepage-phone-desktop-wireframe.png)
+- [Visit wireframe](/docs/wireframes/visit-us-phone-desktop-wireframe.png)
 - [Menu wireframe](/docs/wireframes/menu-phone-desktop-wireframe.png)
 
 ### Surface:
