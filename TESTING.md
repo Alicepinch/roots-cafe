@@ -121,9 +121,10 @@ After doing this to all pages and re-running lighthouse SEO was at 100%.
 
 For Best practices lighthouse returned the error of 'Display images with correct aspect ration" for the roots-logo in the navbar. To fix this I decreased the size of the logo and updated this on all pages.
 
-#### Accesability
+#### Accessibility
 
-In order to improve the Accesability across all pages lighthouse suggested to add "rel="noopener" or rel="norefer" to all of my 'a' elements.
+In order to improve the Accessibility across all pages lighthouse suggested to add "rel="noopener" or rel="norefer" to all of my 'a' elements.
+On the Contact us page to improve Accessibility google suggested to add labels to all of my form input fields. In my design I didn't want the form labels being displayed, so to improve accessibility with keeping the desired design I addeed in some CSS to hide the form labels. This was taken from [Web Accessibility Tutorials](https://www.w3.org/WAI/tutorials/forms/labels/#:~:text=this%20section%20Close-,Hiding%20label%20text,everyone%20better%20understand%20its%20purpose.&text=The%20label%20can%20be%20hidden,reader%20and%20speech%20input%20users) I have clearly commented out in my [CSS Style Sheet](assets/css/style.css) the copied code. 
 
 #### Performance
 
@@ -132,7 +133,7 @@ For performance, lighthouse suggested to compress all images to save on loading 
 #### Reports 
 
 - [Menu Page lighthouse results](/docs/testing/menu-lighthouse-report.png)
-- [Contact Us page lighthouse results](/docs/testing/-lighthouse-report.png)
+- [Contact Us page lighthouse results](/docs/testing/contact-us-lighthouse-report.png)
 - [Homepage lighthouse results](/docs/testing/index-lighthouse-report.png)
 - [Visit us page lighthouse results](/docs/testing/visit-us-lighthouse-report.png)
 
@@ -189,7 +190,6 @@ The contact us form has been tested with different scenarios.
 - When all form fields were completed correctly the form was submitted.
 
 Please note that when submitting this form it will lead to a 405 error, this is because it isn't linked up to go through to anywhere at the moment and something that would be fixed in a future scope. 
-
 
 
 #### Usability Testing:
