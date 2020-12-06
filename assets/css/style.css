@@ -229,17 +229,17 @@ img.roots-logo {
 }
 
 #vegetarian-menu-container {
-  padding-top: 40px;
+  padding-top: 2.5rem;
 }
 
 #sustainable-coffee-container {
-  padding-top: 40px;
+  padding-top: 2.5rem;
   padding-bottom: 3rem;
 }
 
 #coffee-mobile-container {
   padding-bottom: 2rem;
-  padding-top: 20px;
+  padding-top: 1.25rem;
 }
 
 #vegetarian-menu-container img {
@@ -278,7 +278,7 @@ img.roots-logo {
 /*----------------- Instagram Container ----*/
 
 #instagram-container {
-  padding-top: 40px;
+  padding-top: 2.5rem;
 }
 
 #instagram-container a {
@@ -364,8 +364,8 @@ img.roots-logo {
 }
 
 #carousel-container {
-  padding-top: 20px;
-  padding-bottom: 60px;
+  padding-top: 1.25rem;
+  padding-bottom: 3.75rem;
 }
 
 /*----------------- Contact Us page----*/
@@ -375,7 +375,7 @@ img.roots-logo {
 }
 
 #form-container {
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 #form-container a {
@@ -385,6 +385,21 @@ img.roots-logo {
 #form-container a:hover {
   color: #6ba688;
 }
+
+/* Code Copied from https://www.w3.org/WAI/tutorials/forms/labels/#:~:text=this%20section%20Close-,Hiding%20label%20text,everyone%20better%20understand%20its%20purpose.&text=The%20label%20can%20be%20hidden,reader%20and%20speech%20input%20users. */
+
+.form-field-name {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* End of Code Copied*/
 
 .form-input {
   margin-bottom: 5px;

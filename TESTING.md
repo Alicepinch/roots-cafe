@@ -1,6 +1,6 @@
 # Testing
 
-Throughout the building process of the website I checked the Developer tools to ensure that the website is responsive on different devices. I also run my code through W3C CSS and HTML validators.
+During the building process of this website I was regularly checking Developer tools and the WS3 code validators to test the responsiveness and perfomrance of the website. Below is all the testing I ran and all of the changes that I made to improve on any issues that I encountered. 
 
 ### Hero Image Cover text:
 
@@ -31,7 +31,7 @@ Code:
 
 ```
 
-When checking ami-responsive the white divider was overlapping the cover text background so I added the below media query to reduce the size of the divider for ipad:
+When doing furthur checks on ami-responsive I noticed the white divider was overlapping the cover text background. To fix this I added the below media query to reduce the size of the divider for ipad:
 
 Code: 
 
@@ -46,7 +46,7 @@ Code:
 
 ### Hero Image
 ---
-Due to the style of image that I used for the hero image, in phone view there was a lot of blank space and wasn't the best UX. 
+When testing mobile view, I noticed the style of image that I had used for the hero image didnt respond great in mobile as there was a lot of blank space and wasn't the best UX. 
 In order to fix this I added in a Mobile hero image section to my code, this is clearly outlined in my comments in my [index.html](index.html) code. I then hid the original Hero Image section for mobile view and did the same for the mobile view section for larger screen sizes. 
 
 - [Before](/docs/testing/hero-image-before-fix.jpg)
@@ -73,8 +73,8 @@ Code:
 
 ### About us section 
 ---
-When in phone view I noticed that the layout didnt look great for the about us section. 
-To fix this I duplicated the Sustainable Coffee Container and added in a Mobile coffee section. This is clearly commented out in my [index.html](index.html) file. 
+When in phone view I noticed that the layout for the about us section wasn't the best UX. 
+In order to fix this I wanted a different layout for when customers were in mobile view. To achieve this I duplicated the Sustainable Coffee Container and added in a Mobile coffee section. This is clearly commented out in my [index.html](index.html) file. 
 
 In the CSS I set the original container "id="sustainable-coffee-container" for smaller screen sizes as "display: none;" 
 So that in smaller screen sizes the new section "id="mobile-coffee-container"" would show. 
@@ -103,7 +103,7 @@ Code:
 
 ---
 
-Due to removing the Bootstrap styling from the navbar the hamburger icon disappeared. To fix this I added in a fontawesome icon to the span class "navbar-toggler-icon". The navbar wasn't centered so I added in CSS styling 'padding-top: 5px;" which fixed this.
+When building the Navbar using bootstrap. I removed the bootstrap styling as I wanted to style this in my own way. This made the hamburger menu in mobile view disappear. To fix this I added in a fontawesome icon to the span class "navbar-toggler-icon". The navbar wasn't centered so I added in CSS styling 'padding-top: 5px;" which fixed this.
 I have clearly mentioned in my [CSS stylesheet](style.css) where I have overwritten some of the bootstrap styling to achieve this.
 
 ### Lighthouse:
@@ -114,8 +114,8 @@ Throughout the building process I checked my website's performance using lightho
 
 #### SEO
 
-Lighthouse returned the error of "Tap targets not sized properly" I improved the seo to 100% by increasing the size and adding padding to the Icons for the Social media links in thre footer.
-After doing this to all pages and rerunning lighthouse SEO was at 100% for SEO.
+Lighthouse returned the error of "Tap targets not sized properly" I improved the SEO to 100% by increasing the size and adding padding to the Icons for the Social media links in the footer.
+After doing this to all pages and re-running lighthouse SEO was at 100%.
 
 #### Best Practices
 
@@ -127,7 +127,7 @@ In order to improve the Accesability across all pages lighthouse suggested to ad
 
 #### Performance
 
-In order to improve performance, lighthouse suggested to compress all images so I compressed all images using [Tinypng](https://tinypng.com/)
+For performance, lighthouse suggested to compress all images to save on loading time so I compressed all images using [Tinypng](https://tinypng.com/).
 
 #### Reports 
 
@@ -136,17 +136,24 @@ In order to improve performance, lighthouse suggested to compress all images so 
 - [Homepage lighthouse results](/docs/testing/index-lighthouse-report.png)
 - [Visit us page lighthouse results](/docs/testing/visit-us-lighthouse-report.png)
 
-Performance is still lower than the others, I tried the recommendations from lighthouse on how to improve these by converting all my images to webp files, however this was not supported in safari so I reverted these back. 
+Please note that performance is still lower than the others, I tried the recommendations from lighthouse on how to improve these by converting all my images to webp files, however this was not supported in safari when running tests in different browsers so I reverted these back to jpg files. 
 I also tried to decrease the sizing of my images to the exact sizing of the components however they lost their quality. 
 
 ### File paths:
 
-When deploying my website to github I noticed that some of my images were not displaying. With the help of my mentor we discovered the issue was the file paths used. The image's in the style.css sheet were corrected by adding '/roots-cafe/' and images hosted on the page were fixed by removing the '/'.
+When deploying my website to github I noticed that some of my images were not displaying. With the help of my mentor we discovered the issue was the file paths used. The image's in the style.css sheet were corrected by adding '/roots-cafe/' and images hosted on the page were fixed by removing the '/'. During the building process I did something revert the file paths back so that I could see the images in preview.
 
-### Social Links:
+### Link Testing:
 
-When doing final link checks for my project I noticed that the social links were going through to 404. To fix this I checked the URL's and they were missing : from "http://."
+When doing final link checks for my project I noticed that the social links in the footer were going through to 404. To fix this I checked the URL's and they were missing : from "http://."
 These links are now fixed. 
+
+All external links will open in a new tab. 
+
+When testing all of the instagram, twitter, facebook and trip advisor links these all opened in a new tab to the respective homepages. This is expected behaviour for now as the cafe is fictional and does not have its own pages on these platforms. 
+The 'Our Supplier' CTA will open in a new tab to https://www.bridgecoffeeroasters.co.uk/wholesale/coffee/.
+
+The 'View our menu' CTA on the homepage opens in the same tab to the menu page as it wouldn't be a great UX for a customer to have a new tab opened for the same website. 
 
 #### WS3 Validator:
 
@@ -161,7 +168,7 @@ Contact us returned the below error for Headings:
 ![Heading Error](/docs/testing/ws3-contact-form-heading-issue.png)
 In order to fix this, I moved the h1 from the form section into the parent section. 
 
-The below error will still return if this code is run through the validator as it is intentional to not have a header as the H1 sits in the banner section above the form.
+The below error will still return if this code is run through the validator as it is intentional to not have a header in this section as the H1 sits in the section above the form.
 ![Section Error](/docs/testing/ws3-code-validator-contact-us-issue-section.png)
 
 
@@ -170,15 +177,32 @@ When running my code through the CSS validator no errors were found:
 
 All other pages passed when running through the WS3 code validator, the only errors which returned were in regards to the comments in my code. 
 
-### Usability Testing:
+#### Form Testing:
+---
+
+The contact us form has been tested with different scenarios.
+
+- When an empty form was submitted. The webpage promted me to fill in the first mandatory field. 
+- I then filled each form field in one after another then submitted to check that all required form fields were working until a succesful form was submitted. 
+   - Whilst testing the form I noticed that the 'textarea' element was not a required field so I fixed this.
+- The form was filled in with a invalid email address. (missing ".co.uk") form was not submitted.
+- When all form fields were completed correctly the form was submitted.
+
+Please note that when submitting this form it will lead to a 405 error, this is because it isn't linked up to go through to anywhere at the moment and something that would be fixed in a future scope. 
+
+
+
+#### Usability Testing:
 ---
 
 This website has been cross checked on Safari, Chrome and Firefox and works in all of them. 
 
-This has also been run through [Ami Responsive](http://ami.responsivedesign.is/). 
-I also sent this link out to some family and friends to check both the UX and to test that everything was working. 
+This has also been run through [Ami Responsive](http://ami.responsivedesign.is/) and checked with developer tools regularly to ensure that the website is responsive.
+On top of this I checked on my Iphone directly as I found that the developer tools could sometimes be buggy. 
+This was also checked on a larger screen size of 27inches to check the responsiveness.
 
-- Above I have mentioned how when testing in different screen sizes I encountered some issues and how I fixed these for the Hero Image and cover text.
+I also sent this link out to some family and friends to check both the UX and to test that everything was working. 
+- Above I have mentioned how when testing in different screen sizes/browsers I encountered some issues and how I fixed these for the Hero Image and cover text and image formats.
 
 ### User stories tested:
 ---
@@ -214,17 +238,6 @@ I also sent this link out to some family and friends to check both the UX and to
 **User Story:** As a new customer I would like to know the steps being taken to keep up with the current climate.
 - If a customer is planning to visit then they can find the covid update when they go to the 'Visit' page in the fixed navigation. 
 
-### Form Testing:
----
 
-The contact us form has been tested with different scenarios.
-
-- When an empty form was submitted. The webpage promted me to fill in the first mandatory field. 
-- I them filled each form field in one after another then submitted to check that all required form fields were working until a succesful form was submitted. 
-   - Whilst testing the form I noticed that the 'textarea' element was not a required field so I fixed this.
-- The form was filled in with a invalid email address. (Missing ".co.uk") form was not submitted.
-- When all form fields were completed correctly the form was submitted.
-
-Please note that when submitting this form it will lead to a 405 error, this is because it isn't linked up to go through to anywhere at the moment.
 
 
