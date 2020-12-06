@@ -104,7 +104,7 @@ Code:
 ---
 
 When building the Navbar using bootstrap. I removed the bootstrap styling as I wanted to style this in my own way. This made the hamburger menu in mobile view disappear. To fix this I added in a fontawesome icon to the span class "navbar-toggler-icon". The navbar wasn't centered so I added in CSS styling 'padding-top: 5px;" which fixed this.
-I have clearly mentioned in my [CSS stylesheet](style.css) where I have overwritten some of the bootstrap styling to achieve this.
+I have clearly mentioned in my [CSS stylesheet](assets/css/style.css) where I have overwritten some of the bootstrap styling to achieve this.
 
 ### Lighthouse:
 
