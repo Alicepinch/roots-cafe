@@ -88,10 +88,10 @@ This page will include a basic contact form and a linked phone number and email 
 Each page will have the same navigation links for customers to easily navigate back and forth through Pages
 Wireframes were created using balsamiq and the final wireframes can be accessed below:
 
-- [Contact us wireframe](/docs/wireframes/contact-page-phone-desktop-wireframe.png)
-- [Homepage wireframe](/docs/wireframes/homepage-phone-desktop-wireframe.png)
-- [Visit wireframe](/docs/wireframes/visit-us-phone-desktop-wireframe.png)
-- [Menu wireframe](/docs/wireframes/menu-phone-desktop-wireframe.png)
+- [Contact us wireframe](/docs/wireframes/contact-us-wireframes.png)
+- [Homepage wireframe](/docs/wireframes/homepage-wireframes.png)
+- [Visit wireframe](/docs/wireframes/visit-us-wireframes.png)
+- [Menu wireframe](/docs/wireframes/menu-wireframes.png)
 
 ### Surface:
 ---
