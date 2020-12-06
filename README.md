@@ -151,6 +151,7 @@ Future features to be implemented:
 - [Stackoverflow](https://www.w3schools.com/cssref/css_selectors.asp) - Used to assist with small code questions.
 - [Canva](https://www.canva.com/colors/color-palette-generator/) - Used to create the colour pallet.
 - [Corelangs](http://www.corelangs.com/css/box/hover.html) - For help with the overlay for the instagram grid.
+- [Web Accessibility tutorials](https://www.w3.org/WAI/tutorials/forms/labels/#:~:text=this%20section%20Close-,Hiding%20label%20text,everyone%20better%20understand%20its%20purpose.&text=The%20label%20can%20be%20hidden,reader%20and%20speech%20input%20users) - To help hide label's for forms for accessibility.
 
 ## Testing
 
@@ -171,7 +172,6 @@ My roots cafe page can be accessed via: https://alicepinch.github.io/roots-cafe/
 ### Cloning: 
 
 In order to clone a local copy to your to your computer you need to follow the following steps. 
-
 
 ## Credits
 
