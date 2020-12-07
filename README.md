@@ -69,7 +69,7 @@ Below I have outlined all the requirements for this website along with the conte
 - Photos for gallery and instagram grid 
 - Customer reviews
 
-### Future Requirements:
+#### Future Requirements:
 
 - An advanced reviews section from either google reviews or trip advisor or trust pilot
 - A booking system which displays all available dates and times
@@ -87,23 +87,21 @@ The structure  of this website will be a linear structure with no subpages. The 
 
 The homepage will be split into three sections.
 
-The 'About Us' section will include information about how and why Roots Cafe is a vegetarian restaurant and what is offered.
-
-The 'Customer Reviews' section will include previous customer reviews.
-
-The 'Instagram' section will include images linked through to instagram. 
+- The 'About Us' section will include information about how and why Roots Cafe is a vegetarian restaurant and what is offered.
+- The 'Customer Reviews' section will include previous customer reviews.
+- The 'Instagram' section will include images linked through to instagram. 
 
 #### The Menu page:
 
-The 'Menu' page will include the full menu for the user. This will also include a carousel of images.
+- The 'Menu' page will include the full menu for the user. This will also include a carousel of images.
 
 #### Visit Us
 
-The 'Visit' page will include an address and a map, opening times and a COVID update.
+- The 'Visit' page will include an address and a map, opening times and a COVID update.
 
 #### Contact:
 
-This page will include a basic contact form and a linked phone number and email address.
+- This page will include a basic contact form and a linked phone number and email address.
 
 ### Skeleton
 ---
@@ -136,39 +134,41 @@ For links and CTA's I have decided to used the lighter green, and the darker gre
 
 ## Features Implemented
 
-
 #### Fixed Nav: 
-A fixed navigation so when a user is scrolling through the pages page the navigation will always be at the top.
+- A fixed navigation so when a user is scrolling through the pages page the navigation will always be at the top.
 
 ####  Hamburger menu: 
-A hamburger menu for mobile and tablet view so user's can navigate easily via the drop down menu on smaller devices. 
+- A hamburger menu for mobile and tablet view so user's can navigate easily via the drop down menu on smaller devices. 
 
 #### Iframe: 
-Available on the 'Visit us' page accessed via the top navigation allows the user to be able to find the location of Roots Cafe.
+- Available on the 'Visit us' page accessed via the top navigation allows the user to be able to find the location of Roots Cafe.
 
 #### Customer Reviews: 
-Available directly on the homepage allows user to view some reviews from previous customers.
+- Available directly on the homepage allows user to view some reviews from previous customers.
 
 #### Menu: 
-Accessed via the top nav bar where the user can look through the options on offer at Roots Cafe.
+- Accessed via the top nav bar where the user can look through the options on offer at Roots Cafe.
 
 #### Contact form: 
-Available on the 'Contact us' page where the user can fill out the form to get in contact with Roots Cafe.
+- Available on the 'Contact us' page where the user can fill out the form to get in contact with Roots Cafe.
 
 #### About Us: 
-Available directly on the homepage the user can find out about why the cafe was started and the ethos.
+- Available directly on the homepage the user can find out about why the cafe was started and the ethos.
 
 #### Gallery:
-Gallery, accessed on the 'Menu' page. A user is provided with images and can see what the food/business looks like.
+- Gallery, accessed on the 'Menu' page. A user is provided with images and can see what the food/business looks like.
 
 #### Instagram grid: 
-The instagram grid is accessed when scrolling on the homepage and is another style of gallery for user. 
+- The instagram grid is accessed when scrolling on the homepage and is another style of gallery for user. 
 
 #### Footer: 
-Footer is available across all pages and provides quick access to contact info and social media links.
+- Footer is available across all pages and provides quick access to contact info and social media links.
 
 #### Responsive:
-Responsive web design so that the user can view the website on different device sizes. 
+- Responsive web design so that the user can view the website on different device sizes. 
+
+#### Accessibility:
+Aria-labels and alt attributes added to all links and images across the website. 
 
 ## Technologies Used
 
@@ -180,10 +180,10 @@ Responsive web design so that the user can view the website on different device 
 
 ### Other tools used
 
-- [Procreate](https://procreate.art/) - Used to create the "Cafe Name" logo
+- [Procreate](https://procreate.art/) - Used to create the "Cafe Name" logo.
 - [Font awesome](https://fontawesome.com/) - Used for the logos in the Visit us section and homepage.
-- [Google fonts](https://fonts.google.com/)- To import "Overpass and Raleway" to be used across the website
-- [Bootstrap](https://getbootstrap.com/)- To help with creating a responsive website using their grid system and code used for Navigation and carousel (credited in code)
+- [Google fonts](https://fonts.google.com/)- To import "Overpass and Raleway" to be used across the website.
+- [Bootstrap](https://getbootstrap.com/)- To help with creating a responsive website using their grid system and code used for Navigation and carousel (credited in code).
 - [Balsamiq](https://balsamiq.com/wireframes/desktop/) - To create the wireframes for Desktop, Tablet and Phone.
 - [Gimp](https://www.gimp.org/) - Used to resize images.
 - [Tinypng](https://tinypng.com/) - Ran all images through tinypng to compress.
