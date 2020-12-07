@@ -6,7 +6,7 @@
   border: 0;
 }
 
-/*-----------------Text styling----*/
+/*-------- Text styling ---*/
 
 h1,
 h2,
@@ -41,15 +41,15 @@ blockquote {
   font-family: "overpass", sans-serif;
 }
 
-/*----------------- Background Colours ----*/
+/*-------- Background Colours ---*/
 
 .bg-color-light-green {
   background-color: #a0ddbd;
 }
 
-/*----------------- Navigation----*/
+/*-------- Navigation ---*/
 
-/*---- CSS below overwrites the bootstrap styling---*/
+/*-------- CSS below overwrites the bootstrap styling ---*/
 
 .navbar {
   background-color: #fff;
@@ -90,9 +90,9 @@ img.roots-logo {
   background-color: #fff;
 }
 
-/*---- End of overwritten bootstrap styling ---*/
+/*-------- End of overwritten bootstrap styling ---*/
 
-/*----------------- Hero Image and Banner Images----*/
+/*-------- Hero Image and Banner Images---*/
 
 #hero-image {
   position: relative;
@@ -110,7 +110,7 @@ img.roots-logo {
     center fixed;
 }
 
-/*-------- Code taken and adjusted from love running mini project ----*/
+/*-------- Code taken and adjusted from love running mini project---*/
 
 .cover-text {
   background-color: rgba(160, 221, 189, 0.9);
@@ -122,7 +122,8 @@ img.roots-logo {
   right: 0;
   top: 250px;
 }
-/*-------- End of Code taken and adjusted from love running ----*/
+
+/*-------- End of Code taken and adjusted from love running---*/
 
 .cover-text h1 {
   margin: 0;
@@ -167,7 +168,7 @@ img.roots-logo {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-/*----------------- Page Headings -----*/
+/*-------- Page Headings---*/
 
 .menu-heading {
   padding-top: 4rem;
@@ -185,7 +186,7 @@ img.roots-logo {
   padding-bottom: .6rem;
 }
 
-/*----------------- Divider ----*/
+/*-------- Divider---*/
 
 .divider-green {
   width: 400px;
@@ -204,7 +205,7 @@ img.roots-logo {
   border-top: 2px solid rgb(160, 221, 189);
 }
 
-/*----------------- About Us section----*/
+/*-------- About Us section---*/
 
 #about-us {
   padding-top: 3rem;
@@ -252,7 +253,7 @@ img.roots-logo {
   height: 100%;
 }
 
-/*----------------- Trip advisor Container ----*/
+/*-------- Trip advisor Container---*/
 
 #trip-advisor-container {
   padding-top: 2rem;
@@ -275,7 +276,7 @@ img.roots-logo {
   padding: 1.5rem;
 }
 
-/*----------------- Instagram Container ----*/
+/*-------- Instagram Container---*/
 
 #instagram-container {
   padding-top: 2.5rem;
@@ -297,7 +298,6 @@ img.roots-logo {
 .instagram-grid img {
   height: 100%;
   width: 100%;
-
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -310,7 +310,7 @@ img.roots-logo {
   float: right;
 }
 
-/*----------------- Footer ----*/
+/*-------- Footer ----*/
 
 .footer-container {
   padding-top: 2.5rem;
@@ -343,6 +343,7 @@ img.roots-logo {
 .menu-item {
   text-align: left;
 }
+
 .menu-item h5 {
   color: #a0ddbd;
 }
@@ -368,7 +369,7 @@ img.roots-logo {
   padding-bottom: 3rem;
 }
 
-/*----------------- Contact Us page----*/
+/*-------- Contact Us page---*/
 
 .contact-intro-text {
   padding-top: 1rem;
@@ -386,7 +387,7 @@ img.roots-logo {
   color: #6ba688;
 }
 
-/* Code Copied from https://www.w3.org/WAI/tutorials/forms/labels/#:~:text=this%20section%20Close-,Hiding%20label%20text,everyone%20better%20understand%20its%20purpose.&text=The%20label%20can%20be%20hidden,reader%20and%20speech%20input%20users. */
+/*-------- Code Copied from https://www.w3.org/WAI/tutorials/forms/labels/#:~:text=this%20section%20Close-,Hiding%20label%20text,everyone%20better%20understand%20its%20purpose.&text=The%20label%20can%20be%20hidden,reader%20and%20speech%20input%20users.---*/
 
 .form-field-name {
   border: 0;
@@ -399,7 +400,7 @@ img.roots-logo {
   width: 1px;
 }
 
-/* End of Code Copied*/
+/*-------- End of Code Copied---*/
 
 .form-input {
   margin-bottom: 5px;
@@ -427,7 +428,7 @@ img.roots-logo {
   color: #fff;
 }
 
-/*---------------- Visit us Page----*/
+/*-------- Visit us Page---*/
 
 #covid-update {
   padding-top: 1.25rem;
@@ -451,12 +452,11 @@ iframe {
   color: #696767;
 }
 
-/*-----Media Queries----*/
-
-/*----- Phones ----*/
+/*--------Media Queries---*/
 
 @media screen and (max-width: 767px) {
-  /*----Homepage ---*/
+
+  /*--------Homepage---*/
 
   .divider-white {
     width: 200px;
@@ -497,7 +497,7 @@ iframe {
     padding-top: 2rem;
   }
 
-  /*----- Visit us----*/ 
+  /*-------- Visit us---*/ 
 
   #find-us {
     display: none;
@@ -516,9 +516,6 @@ iframe {
     margin: 0 auto;
     border-top: 2px solid rgb(160, 221, 189);
   }
-
-  /*Form */ 
-
 
 }
 
