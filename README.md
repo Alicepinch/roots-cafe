@@ -49,7 +49,7 @@ The main goal of the Roots website it to encourage users to become new customers
 
 #### Business Goals:
 
-- Create an impression of what the cafe is all about and their ethos.
+- Create an impression on what the cafe is all about and their ethos.
 - Encourage users to book a table/ get in contact.
 - Provide information users need to visit.
 - Inform the customer of Menu options.
@@ -65,7 +65,7 @@ Below I have outlined all the requirements for this website along with the conte
 - Responsive webpage
 - Hamburger menu
 - Accessibility
-- Visit us section
+- Visit us page
 - About us section
 - Image Carousel
 - Instagram grid
@@ -205,6 +205,7 @@ Aria-labels and alt attributes added to all links and images across the website.
 - [Corelangs](http://www.corelangs.com/css/box/hover.html) - For help with the overlay for the instagram grid.
 - [Web Accessibility tutorials](https://www.w3.org/WAI/tutorials/forms/labels/#:~:text=this%20section%20Close-,Hiding%20label%20text,everyone%20better%20understand%20its%20purpose.&text=The%20label%20can%20be%20hidden,reader%20and%20speech%20input%20users) - To help hide label's for forms for accessibility.
 - [Ninja Units](https://www.ninjaunits.com/converters/pixels/pixels-rem/) - To convert my px's into rem.
+- [Github Docs](https://docs.github.com/en)
 
 ## Testing
 
@@ -224,7 +225,17 @@ My Roots Cafe page can be accessed via: https://alicepinch.github.io/roots-cafe/
 
 ### Cloning: 
 
-In order to clone a local copy to your computer you need to follow the following steps. 
+In order to clone a local copy of a repository to your computer you need to follow the following steps. 
+
+- Click on the 'Code' button next to 'Add a file' when you have opened a repository
+- To clone your respository by https:// click on the clipboard icon next to the URL. 
+- Once you have done this, open the terminal 
+- The current directory will need to be changed to where you want your cloned directory.
+- Type 'git clone' and then paste in your URL from the earlier steps
+($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITOR)
+- Press enter
+
+You can find more information on this through [Github Docs](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 ## Credits
 
@@ -238,7 +249,7 @@ All content is self written by me however some knowledge was taken from the belo
 Help with the COVID noticed on the 'Visit us' page were taken from these two restaurant websites:
 
 - https://barleymowenglefield.com/
-- http://caspari-italian.net/
+- http://caspari-italian.net
 
 ### Media
 
