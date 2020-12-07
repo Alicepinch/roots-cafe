@@ -4,7 +4,7 @@
 
 ![Ami responsive Screenshot](/docs/readme/ami-responsive.png)
 
-This website is built for Roots Cafe, a Vegetarian and Vegan Cafe. The website is built to inform users on what food the Cafe offers via the menu & gallery section. An about us section with some background on why this was started, and also the location for users to find the Cafe as well as a form to get in contact/book.
+This website is built for Roots Cafe, a Vegetarian and Vegan Cafe. This website is built to inform users of everything that they need to know about Roots Cafe and how they can visit or get in contact.
 
 ## Table of Index: 
 - [UX](#ux)
@@ -149,19 +149,19 @@ For links and CTA's I have decided to used the lighter green, and the darker gre
 ## Features Implemented
 
 #### Fixed Nav: 
-- A fixed navigation so when a user is scrolling through the pages page the navigation will always be at the top.
+- A fixed navigation across all pages so when a user is scrolling through the pages the navigation will always be at the top.
 
 ####  Hamburger menu: 
-- A hamburger menu for mobile and tablet view so user's can navigate easily via the drop down menu on smaller devices. 
+- A hamburger menu for mobile and tablet view across all page so user's can navigate easily via the drop down menu on smaller devices. 
 
 #### Location Map: 
 - Available on the 'Visit us' page accessed via the top navigation allows the user to be able to find the location of Roots Cafe from the iframe.
 
 #### Customer Reviews: 
-- Available directly on the homepage allows user to view some reviews from previous customers.
+- Available on the homepage when scrolled down. This allows user to view some reviews from previous customers.
 
 #### Menu: 
-- Accessed via the top nav bar where the user can look through the options on offer at Roots Cafe.
+- Accessed via the top nav bar link 'Menu' where the user can look through the options on offer at Roots Cafe.
 
 #### Contact form: 
 - Available on the 'Contact us' page where the user can fill out the form to get in contact with Roots Cafe.
@@ -170,7 +170,7 @@ For links and CTA's I have decided to used the lighter green, and the darker gre
 - Available directly on the homepage the user can find out about why the cafe was started and the ethos.
 
 #### Gallery:
-- Gallery, accessed on the 'Menu' page. A user is provided with images and can see what the food/business looks like.
+- Gallery, accessed on the 'Menu' page. A user is provided with images and can see what the food looks like.
 
 #### Instagram grid: 
 - The instagram grid is accessed when scrolling on the homepage and is another style of gallery for user. 
@@ -179,7 +179,7 @@ For links and CTA's I have decided to used the lighter green, and the darker gre
 - Footer is available across all pages and provides quick access to contact info and social media links.
 
 #### Responsive:
-- Responsive web design so that the user can view the website on different device sizes. 
+- Responsive web design across the whole website so that the user can view this on different device sizes. 
 
 #### Accessibility:
 - Aria-labels and alt attributes added to all links and images across the website. 
