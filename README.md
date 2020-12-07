@@ -6,6 +6,19 @@
 
 This website is built for Roots Cafe, a Vegetarian and Vegan Cafe. The website is built to inform users on what food the Cafe offers via the menu & gallery section. An about us section with some background on why this was started, and also the location for users to find the Cafe as well as a form to get in contact/book.
 
+## Table of Index: 
+- [UX](#ux)
+   - [Strategy](#strategy)
+   - [Scope](#scope)
+   - [Structure](#structure)
+   - [Skeleton](#skeleton)
+   - [Surface](#surface)
+- [Features Implemented](#features-implemented)
+- [Technologies Used](#technologies-used)
+- [Testing](TESTING.md)
+- [Deployment](#deployment)
+- [Credits](#credits)
+
 ## UX
 
 The UX goal for this website is to ensure the website is as clear as possible for users to get to all the information that they need. This will be achieved by a simple website structure with 3 separate pages with the two different User journeys as the main focus. These focus's will be, new customers who are looking for a new cafe to visit who stumble upon Roots Cafe and existing customers who want to get in contact/see whats new and view our menu.
@@ -175,7 +188,6 @@ Aria-labels and alt attributes added to all links and images across the website.
 ### Languages
 
 - HTML5
-
 - CSS3
 
 ### Other tools used
