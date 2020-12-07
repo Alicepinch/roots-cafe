@@ -73,8 +73,8 @@ blockquote {
 img.roots-logo {
   height: 60px;
   width: 65px;
-  padding-right: 10px;
-  padding-bottom: 5px;
+  padding-right: .6rem;
+  padding-bottom: .3rem;
 }
 
 .navbar-toggler {
@@ -83,7 +83,7 @@ img.roots-logo {
 
 .navbar-toggler-icon i {
   color: #848484;
-  padding-top: 5px;
+  padding-top: .3rem;
 }
 
 #navbarNav {
@@ -97,7 +97,7 @@ img.roots-logo {
 #hero-image {
   position: relative;
   height: 750px;
-  padding-top: 75px;
+  padding-top: 4.7rem;
   background: url("/roots-cafe/assets/images/hero-image.jpg") no-repeat top
     center fixed;
 }
@@ -105,7 +105,7 @@ img.roots-logo {
 #hero-image-mobile {
   position: relative;
   height: 750px;
-  padding-top: 75px;
+  padding-top: 4.7rem;
   background: url("/roots-cafe/assets/images/hero-image-mobile-view.jpg") no-repeat top
     center fixed;
 }
@@ -126,31 +126,31 @@ img.roots-logo {
 
 .cover-text h1 {
   margin: 0;
-  padding-top: 25px;
+  padding-top: 1.5rem;
 }
 
 .cover-text h2 {
   font-weight: 300;
-  padding-top: 5px;
+  padding-top: .3rem;
 }
 
 #contact-background {
   height: 750px;
-  padding-top: 75px;
+  padding-top: 4.7rem;
   background: url("/roots-cafe/assets/images/contact-us-background-image.jpg")
     no-repeat top center;
 }
 
 #menu-header {
   height: 300px;
-  padding-top: 75px;
+  padding-top: 4.7rem;
   background: url("/roots-cafe/assets/images/menu-banner-image.jpg") no-repeat
     top center fixed;
 }
 
 #visit-header {
   height: 300px;
-  padding-top: 75px;
+  padding-top: 4.7rem;
   background: url("/roots-cafe/assets/images/visit-us-banner-image.jpg")
     no-repeat top center fixed;
 }
@@ -182,7 +182,7 @@ img.roots-logo {
 }
 
 .carousel-heading {
-  padding-bottom: 10px;
+  padding-bottom: .6rem;
 }
 
 /*----------------- Divider ----*/
@@ -217,7 +217,7 @@ img.roots-logo {
 .about-us-cta {
   background-color: #a0ddbd;
   color: #fff;
-  padding: 10px;
+  padding: .6rem;
   border-radius: 30px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
@@ -282,7 +282,7 @@ img.roots-logo {
 }
 
 #instagram-container a {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #a0ddbd;
 }
 
@@ -291,7 +291,7 @@ img.roots-logo {
 }
 
 .instagram-grid {
-  padding: 10px;
+  padding: .6rem;
 }
 
 .instagram-grid img {
@@ -318,7 +318,7 @@ img.roots-logo {
 
 .footer-container p {
   font-weight: 400;
-  font-size: 14px;
+  font-size: .9rem;
 }
 
 .footer-container a {
@@ -334,7 +334,7 @@ img.roots-logo {
 }
 
 .social-network i {
-  font-size: 25px;
+  font-size: 1.5rem;
   padding: 0 5px 0 5px;
 }
 
@@ -360,12 +360,12 @@ img.roots-logo {
   font-family: "Overpass", sans-serif;
   color: #696767;
   font-weight: 300;
-  font-size: 14px;
+  font-size: .9rem;
 }
 
 #carousel-container {
-  padding-top: 1.25rem;
-  padding-bottom: 3.75rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
 }
 
 /*----------------- Contact Us page----*/
@@ -408,7 +408,7 @@ img.roots-logo {
 .form-field {
   width: 100%;
   border: 1px solid #696767;
-  padding: 10px;
+  padding: .6rem;
   border-radius: 10px;
   font-family: "Overpass", sans-serif;
 }
@@ -430,13 +430,13 @@ img.roots-logo {
 /*---------------- Visit us Page----*/
 
 #covid-update {
-  padding-top: 20px;
+  padding-top: 1.25rem;
 }
 
 #iframe-container {
   width: 100%;
   height: 100%;
-  padding: 30px;
+  padding: 1.8rem;
 }
 
 iframe {
@@ -474,7 +474,7 @@ iframe {
   }
 
   .cover-text h1 {
-    padding-top: 15px;
+    padding-top: 1rem;
   }
 
   .instagram-handle {
@@ -490,11 +490,11 @@ iframe {
   }
 
   #vegetarian-menu-container img {
-    padding-top: 2em;
+    padding-top: 2rem;
   }
 
   #coffee-mobile-container img {
-    padding-top: 2em;
+    padding-top: 2rem;
   }
 
   /*----- Visit us----*/ 
