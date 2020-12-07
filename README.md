@@ -21,7 +21,7 @@ This website is built for Roots Cafe, a Vegetarian and Vegan Cafe. This website 
 
 ## UX
 
-The UX goal for this website is to ensure the website is as clear as possible for users to get to all the information that they need. This will be achieved by a simple website structure with 3 separate pages with the two different User journeys as the main focus. These focus's will be, new customers who are looking for a new cafe to visit who stumble upon Roots Cafe and existing customers who want to get in contact/see whats new and view our menu.
+The UX goal for this website is to ensure the website is as clear as possible for users to get to all the information that they need. This will be achieved by a simple website structure with 3 separate pages with the two different User journeys as the main focus. This will be; new customers who are looking for a new cafe to visit who stumble upon Roots Cafe, and existing customers who want to get in contact/see whats new and view our menu.
 
 ## User Stories:
 
@@ -35,55 +35,46 @@ From being both a new customer and existing customer for many Cafe's myself, ask
 - As a new customer I would like to be able to get in contact with the cafe if I had any questions.
 - As a new customer I would like some visuals of what to expect from the cafe.
 - As a new customer I would like to see some reviews from previous customers.
+- As a new customer I would like to see the menu options and whether I would be interested in what is on offer.
 
 #### Existing customer:
 
-- As a customer who has already visited Roots Cafe before I would like to be able to view the menu to see if anything new has been added/ to plan what I will eat.
-- As a new customer I would like to be able to get in contact to book a table/ if I have any questions
-- As a new customer I would like to know the steps being taken to keep up with the current climate.
+- As an existing customer who has already visited Roots Cafe before I would like to be able to view the menu to see if anything new has been added/ to plan what I will eat.
+- As an existing customer I would like to be able to get in contact to book a table/ if I have any questions.
+- As an existing customer I would like to know the steps being taken to keep up with the current climate.
 
 ### Strategy
 ---
 
-The main goal of the Roots website it to encourage users to become new customers of Roots Cafe by choosing this cafe over others in the area by providing them with all the information they may need. It also aims to keep existing customers informed on current situations which may have an effect on opening times of the cafe, and also to keep them up to date with the menu's and anything that might be new.
+The main goal of the Roots Cafe website it to encourage users to become new customers. We will achieve this by providing an online experience of what they can expect when they come to the cafe via our menu, photos and overall design which will be similar to the feel of the actual cafe. It also aims to keep existing customers informed on current situations which may have an effect on opening times of the cafe, and also to keep them up to date with the menu's and anything that might be new.
 
 #### Business Goals:
 
-- Create an impression on what the cafe is all about and their ethos.
+- Create an impression of what the look and feel of the cafe is and what they are about.
 - Encourage users to book a table/ get in contact.
 - Provide information users need to visit.
-- Inform the customer of Menu options.
+- Inform the user of Menu options.
 - Give the user visuals of what the food looks like.
 
 ## Scope
 
-Below I have outlined all the requirements for this website along with the content requirements needed for these. I have also outlined some future requirements of things that I want to implement which can't be done at the moment due to the time frame and current knowledge.
+Below I have outlined all the requirements to be implemented to create this website. I have also outlined some future features I would want to implement that can't be done at the moment due to the time frame and my current knowledge.
 
-#### Requirements: 
-- Contact Form
-- Menu page
-- Responsive webpage
-- Hamburger menu
-- Accessibility
-- Visit us page
-- About us section
-- Image Carousel
-- Instagram grid
-- Reviews section
-
-#### Content Requirements: 
-- Written address
-- Opening times
-- Iframe map
-- Customer review section
-- Details for the about us section
-- Contact information
-- Social media links
-- Photos for gallery and instagram grid 
-- Customer reviews
+#### Requirements:
+- Contact Us Page - A basic contact form with first name, last name, email, subject and message fields.
+- Menu page - A menu page with all the menu items. 
+- Responsive webpage - A webpage that is optimized for different screen sizes. 
+- Hamburger menu - A collapsable menu for smaller screen sizes. 
+- Accessibility - Accessible links and appropriate alt attributes across the website.
+- Visit us page - Written address, iframe map, opening times and COVID update.
+- About us section - Information about roots cafe. 
+- Image Carousel - Some images of the food to accompany the menu.
+- Instagram grid - A display of instagtam photos. 
+- Reviews section - Customer quotes from trip advisor.
+- Footer - with quick contact links and social media links.
+- Sticky navigation - A navigation bar that stays at the top of the page when scrolling. 
 
 #### Future Features:
-
 - An advanced reviews section from either google reviews or trip advisor or trust pilot
 - A booking system which displays all available dates and times
 - Form going through to an automated system
@@ -155,7 +146,10 @@ For links and CTA's I have decided to used the lighter green, and the darker gre
 - A hamburger menu for mobile and tablet view across all page so user's can navigate easily via the drop down menu on smaller devices. 
 
 #### Location Map: 
-- Available on the 'Visit us' page accessed via the top navigation allows the user to be able to find the location of Roots Cafe from the iframe.
+- Available on the 'Visit' page accessed via the top navigation allows the user to be able to find the location of Roots Cafe from the iframe.
+
+#### Opening Times: 
+- Available on the 'Visit' page accessed via the top navigation provides the opening times for the cafe. 
 
 #### Customer Reviews: 
 - Available on the homepage when scrolled down. This allows user to view some reviews from previous customers.

@@ -73,11 +73,11 @@ Code:
 
 ### About us section 
 ---
-When in phone view I noticed that the layout for the about us section wasn't the best UX. 
+
+When testing the about us section in mobile view I noticed that the layout for this didn't have the best UX. 
 In order to fix this I wanted a different layout for when customers were in mobile view. To achieve this I duplicated the Sustainable Coffee Container and added in a Mobile coffee section. This is clearly commented out in my [index.html](index.html) file. 
 
-In the CSS I set the original container "id="sustainable-coffee-container" for smaller screen sizes as "display: none;" 
-So that in smaller screen sizes the new section "id="mobile-coffee-container"" would show. 
+In the CSS I set the original container "id="sustainable-coffee-container" for smaller screen sizes as "display: none;" so that in smaller screen sizes the new section "id="mobile-coffee-container"" would show. 
 I then made sure that on larger screen size the "mobile-coffee-container" would not show.
 
 Code: 
@@ -103,19 +103,18 @@ Code:
 
 ---
 
-When building the Navbar using bootstrap. I removed the bootstrap styling as I wanted to style this in my own way. This made the hamburger menu in mobile view disappear. To fix this I added in a fontawesome icon to the span class "navbar-toggler-icon". The navbar wasn't centered so I added in CSS styling 'padding-top: 5px;" which fixed this.
+When building the Navbar using bootstrap I removed the bootstrap styling as I wanted to style this in my own way. This made the hamburger menu in mobile view disappear. To fix this I added in a fontawesome icon to the span class "navbar-toggler-icon". The navbar wasn't centered so I added in CSS styling 'padding-top: 5px;" which fixed this.
 I have clearly mentioned in my [CSS stylesheet](assets/css/style.css) where I have overwritten some of the bootstrap styling to achieve this.
 
 ### Lighthouse:
 
 ---
 
-Throughout the building process I checked my website's performance
- using lighthouse in the developer tools. To improve SEO and best practices I looked at the google suggestions on how to improve these.
+Throughout the building process I checked my website's performance using lighthouse in the developer tools. To improve the different reports I looked at the google suggestions.
 
 #### SEO
 
-Lighthouse returned the error of "Tap targets not sized properly" I improved the SEO to 100% by increasing the size and adding padding to the Icons for the Social media links in the footer.
+Lighthouse returned the error of "Tap targets not sized properly". I improved the SEO to 100% by increasing the size and adding padding to the Icons for the Social media links in the footer.
 After doing this to all pages and re-running lighthouse SEO was at 100%.
 
 #### Best Practices
@@ -138,7 +137,7 @@ For performance, lighthouse suggested to compress all images to save on loading 
 - [Homepage lighthouse results](/docs/testing/index-lighthouse-report.png)
 - [Visit us page lighthouse results](/docs/testing/visit-us-lighthouse-report.png)
 
-Please note that performance is still lower than the others, I tried the recommendations from lighthouse on how to improve these by converting all my images to webp files, however this was not supported in safari when running tests in different browsers so I reverted these back to jpg files. 
+Please note that performance is still lower than the others. The recommendations from lighthouse suggested to convert all my images to webp files. However, this format was not supported in safari when I ran tests in different browsers therefore, I reverted these back to jpg files. 
 I also tried to decrease the sizing of my images to the exact sizing of the components however they lost their quality. 
 
 ### File paths:
@@ -147,19 +146,19 @@ When deploying my website to github I noticed that some of my images were not di
 
 ### Link Testing:
 
-When doing final link checks for my project I noticed that the social links in the footer were going through to 404. To fix this I checked the URL's and they were missing : from "http://."
+When doing final link checks for my project, I noticed that the social links in the footer were going through to 404. To fix this I checked the URL's, which were missing ':' from "https://".
 These links are now fixed. 
 
 All external links will open in a new tab. 
 
-When testing all of the instagram, twitter, facebook and trip advisor links these all opened in a new tab to the respective homepages. This is expected behaviour for now as the cafe is fictional and does not have its own pages on these platforms. 
+When testing the instagram, twitter, facebook and trip advisor links these all opened in a new tab to the respective homepages. This is expected behaviour for now as the cafe is fictional and does not have its own pages on these platforms. 
 The 'Our Supplier' CTA will open in a new tab to https://www.bridgecoffeeroasters.co.uk/wholesale/coffee/.
 
 The 'View our menu' CTA on the homepage opens in the same tab to the menu page as it wouldn't be a great UX for a customer to have a new tab opened for the same website. 
 
 #### WS3 Validator:
 
-Throughout the building process of each section of the Roots cafe website I ran my code through the WS3 HTML & CSS validators.
+Throughout the building process of each section of the Roots cafe website, I ran my code through the WS3 HTML & CSS validators.
 
 When running the 'Contact us' page through it returned the below error for the text-area:
 ![Input Field Error](/docs/testing/ws3-code-validator-contact-us-issue.png)
@@ -175,21 +174,21 @@ When re-running the contact us code no issues were found.
 When running my code through the CSS validator no errors were found:
 ![CSS Code Validator](/docs/testing/ws3-css-validator.png)
 
-All other pages passed when running through the WS3 code validator, the only errors which returned were in regards to the comments in my code. 
+All other pages passed when running through the WS3 code validator, the only errors which returned were in regards to comments in my code. 
 
 #### Form Testing:
 ---
 
 The contact us form has been tested with different scenarios.
 
-- When an empty form was submitted. The webpage promted me to fill in the first mandatory field. 
-- I then filled each form field in one after another then submitted to check that all required form fields were working until a succesful form was submitted. 
-   - Whilst testing the form I noticed that the 'textarea' element was not a required field so I fixed this.
-- The form was filled in with a invalid email address. (missing ".co.uk") form was not submitted.
-- When all form fields were completed correctly the form was submitted.
+- When an empty form was submitted > The webpage promted me to fill in the first mandatory field. 
+   - I then filled each form field in one after another with submitting after each one to check that all required form fields were working until a succesful form was submitted. 
+- The form was filled in with a invalid email address (missing ".co.uk"). The webpage promted me to enter a real email address.
+- When all form fields were completed correctly the form was submitted succesfully.
+
+Whilst testing the form I noticed that the 'textarea' element was not a required field so this was fixed.
 
 Please note that when submitting this form it will lead to a 405 error, this is because it isn't linked up to go through to anywhere at the moment and something that would be fixed in a future scope. 
-
 
 #### Usability Testing:
 ---
@@ -232,15 +231,18 @@ I also sent this link out to some family and friends to check both the UX and to
 **User Story:** As a new customer I would like to see some reviews from previous customers.
 - A customer can view customer reviews via the 'Customer reviews section' on the homepage. This also links through to trip advisor where they could view more if the cafe was real.
 
+**User Story** As a new customer I would like to see the menu options and whether I would be interested in what is on offer.
+- A customer can view the menu via the menu link in the navigation. 
+
 #### Existing customer:
 
-**User Story:** As a customer who has already visited Roots cafe before I would like to be able to view the menu to see if anything new has been added/ to plan what I will eat.
+**User Story:** As an existing customer who has already visited Roots cafe before I would like to be able to view the menu to see if anything new has been added/ to plan what I will eat.
 - A customer can click through to the menu from the fixed navigation bar at the top of the page. 
 
-**User Story:** As a new customer I would like to be able to get in contact to book a table/ if I have any questions.
+**User Story:** As an existing customer I would like to be able to get in contact to book a table/ if I have any questions.
 - A customer can click through to the contact page from the fixed navitation bar at the top of the page. They are also provided with quick contact details via the footer on each page. 
 
-**User Story:** As a new customer I would like to know the steps being taken to keep up with the current climate.
+**User Story:** As an existing customer I would like to know the steps being taken to keep up with the current climate.
 - If a customer is planning to visit then they can find the covid update when they go to the 'Visit' page in the fixed navigation. 
 
 
