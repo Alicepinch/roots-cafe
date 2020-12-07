@@ -136,7 +136,7 @@ img.roots-logo {
 }
 
 #contact-background {
-  height: 750px;
+  height: 700px;
   padding-top: 4.7rem;
   background: url("/roots-cafe/assets/images/contact-us-background-image.jpg")
     no-repeat top center;
@@ -387,7 +387,8 @@ img.roots-logo {
   color: #6ba688;
 }
 
-/*-------- Code Copied from https://www.w3.org/WAI/tutorials/forms/labels/#:~:text=this%20section%20Close-,Hiding%20label%20text,everyone%20better%20understand%20its%20purpose.&text=The%20label%20can%20be%20hidden,reader%20and%20speech%20input%20users.---*/
+/*-------- Code Copied from https://www.w3.org/WAI/tutorials/forms/labels/---
+Referenced in testing as to why this code was used*/
 
 .form-field-name {
   border: 0;
@@ -404,6 +405,10 @@ img.roots-logo {
 
 .form-input {
   margin-bottom: 5px;
+}
+
+.form-input button {
+    margin-top: .5rem;
 }
 
 .form-field {
@@ -516,6 +521,12 @@ iframe {
     margin: 0 auto;
     border-top: 2px solid rgb(160, 221, 189);
   }
+
+  /*-------- Contact Us---*/
+
+  #contact-background {
+  height: 760px;
+}
 
 }
 
