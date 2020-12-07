@@ -4,19 +4,19 @@
 
 ![Ami responsive Screenshot](/docs/readme/ami-responsive.png)
 
-This website is built for Roots cafe, a Vegetarian and Vegan Cafe. The website is built to inform customers on what food the Cafe offers via the menu & gallery section. An about us section with some background on why this was started, and also the location for customers to find the Cafe as well as a form to get in contact/book.
+This website is built for Roots Cafe, a Vegetarian and Vegan Cafe. The website is built to inform users on what food the Cafe offers via the menu & gallery section. An about us section with some background on why this was started, and also the location for users to find the Cafe as well as a form to get in contact/book.
 
 ## UX
 
-The UX goal for this website is to ensure the website is as clear as possible for customers to get to the information that they need. This will be achieved by a simple website structure with 3 seperate pages with the two different User journeys as the main focus. These focus's will be, New customers who are looking for a new cafe to visit who stumble upon Roots Cafe and Exisiting customers who want to get in contact/see whats new and view our menu.
+The UX goal for this website is to ensure the website is as clear as possible for users to get to all the information that they need. This will be achieved by a simple website structure with 3 separate pages with the two different User journeys as the main focus. These focus's will be, new customers who are looking for a new cafe to visit who stumble upon Roots Cafe and existing customers who want to get in contact/see whats new and view our menu.
 
 ## User Stories:
 
-From being both a new customer and existing customer for many Cafe's myself and also asking friends and family and doing some online research I came up with these user stories.
+From being both a new customer and existing customer for many Cafe's myself, asking friends and family and doing some online research I came up with these user stories.
 
 #### New customer:
 
-- As a new customer I would want to learn about Roots.
+- As a new customer I would want to learn about Roots Cafe.
 - As a new customer I would like to know the opening times of the cafe.
 - As a new customer I would like to know where the cafe is located and how to get there.
 - As a new customer I would like to be able to get in contact with the cafe if I had any questions.
@@ -25,67 +25,90 @@ From being both a new customer and existing customer for many Cafe's myself and 
 
 #### Existing customer:
 
-- As a customer who has already visited Roots cafe before I would like to be able to view the menu to see if anything new has been added/ to plan what I will eat.
+- As a customer who has already visited Roots Cafe before I would like to be able to view the menu to see if anything new has been added/ to plan what I will eat.
 - As a new customer I would like to be able to get in contact to book a table/ if I have any questions
 - As a new customer I would like to know the steps being taken to keep up with the current climate.
 
 ### Strategy
 ---
 
-The main goal of the Roots website it to encourage potential new customers to chose this cafe over others in the area by providing them with all the information they may need. It also aims to keep existing customers informed on current situations which may have an effect on opening times of the cafe, and also to keep them up to date with the menu's and anything that might be new.
+The main goal of the Roots website it to encourage users to become new customers of Roots Cafe by choosing this cafe over others in the area by providing them with all the information they may need. It also aims to keep existing customers informed on current situations which may have an effect on opening times of the cafe, and also to keep them up to date with the menu's and anything that might be new.
 
 #### Business Goals:
 
-- Inform the customer of Menu options
-- Give the customers visuals of what the food looks like
 - Create an impression of what the cafe is all about and their ethos.
-- Encourgage customers to book a table/ get in contact
+- Encourage users to book a table/ get in contact.
+- Provide information users need to visit.
+- Inform the customer of Menu options.
+- Give the user visuals of what the food looks like.
 
-### Scope
----
+## Scope
 
-- User will be able to find the location of Roots Cafe via the 'Visit Us Section'
-- User will be able to view some reviews from previous customers
-- Can view the menu from the 'Menu' section.
-- Get in contact with Roots cafe via the contact form
-- Find out about why the cafe was started and the ethos of the company via the About us section on the homepage.
-- View a Gallery of food photos.
-- Visit the Cafe's social media platforms
-- View the opening times for the cafe.
+Below I have outlined all the requirements for this website along with the content requirements needed for these. I have also outlined some future requirements of things that I want to implement which can't be done at the moment due to the time frame and current knowledge.
 
-#### Future scope:
+#### Requirements: 
+- Contact Form
+- Menu page
+- Responsive webpage
+- Hamburger menu
+- Accessibility
+- Visit us section
+- About us section
+- Image Carousel
+- Instagram grid
+- Reviews section
 
-- The customer will be able to book a table through a Javascript booking system which would connect directly to the cafe.
-- Social media post's will be able to link directly from the gallery rather than current placeholder images.
-- A review system will be in place or linked directly from trip advisor. 
-- A subscription option will be available for customers to keep up to date with all the latest at roots.
+#### Content Requirements: 
+- Written address
+- Opening times
+- Iframe map
+- Customer review section
+- Details for the about us section
+- Contact information
+- Social media links
+- Photos for gallery and instagram grid 
+- Customer reviews
+
+### Future Requirements:
+
+- An advanced reviews section from either google reviews or trip advisor or trust pilot
+- A booking system which displays all available dates and times
+- Form going through to an automated system
+- A sign up subscription modal
+- A 404 page
+- A promotional video
 
 ### Structure
 ---
 
-The structe of this website will be a linear structre with no subpages. The navigation on the top will include. Home, Menu, Visit , Contact.
+The structure  of this website will be a linear structure with no subpages. The navigation on the top will include. Home, Menu, Visit , Contact.
 
 #### The Homepage:
 
-The 'About Us' section will talk about how and why Roots Cafe is a vegetarian resturant wand what we offer for the customer.
+The homepage will be split into three sections.
+
+The 'About Us' section will include information about how and why Roots Cafe is a vegetarian restaurant and what is offered.
+
+The 'Customer Reviews' section will include previous customer reviews.
+
+The 'Instagram' section will include images linked through to instagram. 
 
 #### The Menu page:
 
-The menu page Will include the full menu for the customer. This will also include a gallery of images to give the customers visual's of what the cafe offers.
+The 'Menu' page will include the full menu for the user. This will also include a carousel of images.
 
 #### Visit Us
 
-Will include an Address and a map for if customers want to visit, Opening times and a COVID update
+The 'Visit' page will include an address and a map, opening times and a COVID update.
 
 #### Contact:
 
 This page will include a basic contact form and a linked phone number and email address.
 
-
 ### Skeleton
 ---
 
-Each page will have the same navigation links for customers to easily navigate back and forth through Pages
+Each page will have the same navigation links for users to easily navigate back and forth through pages.
 Wireframes were created using balsamiq and the final wireframes can be accessed below:
 
 ![Contact us wireframe](/docs/wireframes/contact-us-wireframes.png)
@@ -98,37 +121,54 @@ Wireframes were created using balsamiq and the final wireframes can be accessed 
 
 #### Design:
 
-For the overall design of this project I wanted it to be simple, clean and crisp with not too much going on which may overwhelm the customer.
+For the overall design of this project I want it to be simple, clean and crisp with not too much going on which may overwhelm the customer.
 
 #### Typography:
 
-The first font that I decided to use for this project was Overpass from Googlefonts, it was recommended that Raleway complimeneted this font well so I chose to use this alongside. The fall back font that I used is sans-sherif.
-Raleway has been used for headers and overpass has been used for body text.
+The first font that I have decided to use for this project was Overpass from Googlefonts, it was recommended that Raleway complimented this font well so I chose to use this alongside. The fall back font that I am using is sans-sherif.
+Raleway will be used for headers and overpass for body text.
 
 #### Colour Scheme
 
-As the colour green is normally associated with Vegetarianism and Veganism, I decided to use green as my main colour focus for this project. I want my website to be clean and crisp therefore I chose to stick with only green and not introduce any other bold colours.
-For links and CTA's I have used the lighter green, and the darker green for when hoving over for contrast. I decided on a dark grey for the font colour and white for the background. I have also used the light green colour as background for some sections across the website to create consitency and break up the white.
+As the colour green is normally associated with Vegetarianism and Veganism, I have decided to use green as my main colour focus for this project. I want my website to be clean and crisp therefore I chose to stick with only green and not introduce any other bold colours.
+For links and CTA's I have decided to used the lighter green, and the darker green will be used for when hovering over for contrast. Dark grey will be used for the font colour and white for the background. I will also used the light green colour as background for some sections across the website to create consistency and break up the white.
 ![Colour Pallet](/docs/readme/canva-colour-wheel-roots-cafe.jpg)
 
-## Features
+## Features Implemented
 
-- Basic contact form
-- iFrame Google Map to show the location of the coffee shop
-- Hero Image and banner images
-- Gallery/carousel images to showcase a range of product photos from the menu
-- About us section.
-- Fixed footer with acccess to all the social media platforms and quick contact information.
-- Responsive webpage which is optimized for Large, medium and small screens.
-- Fixed navigation bar with the company logo to allow customers easy access to all pages at any time.
-- Hamburger menu when in smaller screens.
 
-Future features to be implemented:
+#### Fixed Nav: 
+A fixed navigation so when a user is scrolling through the pages page the navigation will always be at the top.
 
-- A reviews section from either google reviews or trip advisor or trust pilot.
-- A booking system which displays all available dates and times.
-- The form will go through to an automated system.
-- A sign up subscription modal.
+####  Hamburger menu: 
+A hamburger menu for mobile and tablet view so user's can navigate easily via the drop down menu on smaller devices. 
+
+#### Iframe: 
+Available on the 'Visit us' page accessed via the top navigation allows the user to be able to find the location of Roots Cafe.
+
+#### Customer Reviews: 
+Available directly on the homepage allows user to view some reviews from previous customers.
+
+#### Menu: 
+Accessed via the top nav bar where the user can look through the options on offer at Roots Cafe.
+
+#### Contact form: 
+Available on the 'Contact us' page where the user can fill out the form to get in contact with Roots Cafe.
+
+#### About Us: 
+Available directly on the homepage the user can find out about why the cafe was started and the ethos.
+
+#### Gallery:
+Gallery, accessed on the 'Menu' page. A user is provided with images and can see what the food/business looks like.
+
+#### Instagram grid: 
+The instagram grid is accessed when scrolling on the homepage and is another style of gallery for user. 
+
+#### Footer: 
+Footer is available across all pages and provides quick access to contact info and social media links.
+
+#### Responsive:
+Responsive web design so that the user can view the website on different device sizes. 
 
 ## Technologies Used
 
@@ -156,7 +196,7 @@ Future features to be implemented:
 
 ## Testing
 
-All the testing carried out for Roots cafe can be found [here](TESTING.md)
+All the testing carried out for Roots Cafe can be found [here](TESTING.md)
 
 ## Deployment
 
@@ -168,11 +208,11 @@ This project was created in Gitpod workspaces and pushed to Github regularly. To
 - Selected the master branch as the source, saved these changes.
 - After refreshing the page my repo had been published
 
-My roots cafe page can be accessed via: https://alicepinch.github.io/roots-cafe/
+My Roots Cafe page can be accessed via: https://alicepinch.github.io/roots-cafe/
 
 ### Cloning: 
 
-In order to clone a local copy to your to your computer you need to follow the following steps. 
+In order to clone a local copy to your computer you need to follow the following steps. 
 
 ## Credits
 
@@ -183,14 +223,14 @@ All content is self written by me however some knowledge was taken from the belo
 - Information on the sustainable coffee brand taken from: https://www.bridgecoffeeroasters.co.uk/wholesale/coffee/
 - Ideas on how to be a sustainable cafe https://www.mobiletransaction.org/how-to-make-cafe-sustainable/
 
-Help with the COVID noticed on the 'Visit us' page were taken from these two resturant websites:
+Help with the COVID noticed on the 'Visit us' page were taken from these two restaurant websites:
 
 - https://barleymowenglefield.com/
 - http://caspari-italian.net/
 
 ### Media
 
-The photos used in this site were all copyright free and taken from from the following websites:
+The photos used in this site were all copyright free and taken from the following websites:
 
 - https://www.rawpixel.com/
 - https://www.pexels.com/photo/vegetable-sandwich-on-plate-1095550/

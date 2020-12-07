@@ -1,6 +1,6 @@
 # Testing
 
-During the building process of this website I was regularly checking Developer tools and the WS3 code validators to test the responsiveness and perfomrance of the website. Below is all the testing I ran and all of the changes that I made to improve on any issues that I encountered. 
+During the building process of this website I was regularly checking Developer tools and the WS3 code validators to test the responsiveness and performance of the website. Below is all the testing I ran and all of the changes that I made to improve on any issues that I encountered. 
 
 ### Hero Image Cover text:
 
@@ -110,7 +110,8 @@ I have clearly mentioned in my [CSS stylesheet](assets/css/style.css) where I ha
 
 ---
 
-Throughout the building process I checked my website's performance using lighthouse in the developer tools. To improve SEO and best practices I looked at the google suggestions on how to improve these.
+Throughout the building process I checked my website's performance
+ using lighthouse in the developer tools. To improve SEO and best practices I looked at the google suggestions on how to improve these.
 
 #### SEO
 
