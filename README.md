@@ -206,7 +206,7 @@ For links and CTA's I have decided to used the lighter green, and the darker gre
 - [Corelangs](http://www.corelangs.com/css/box/hover.html) - For help with the overlay for the instagram grid.
 - [Web Accessibility tutorials](https://www.w3.org/WAI/tutorials/forms/labels/#:~:text=this%20section%20Close-,Hiding%20label%20text,everyone%20better%20understand%20its%20purpose.&text=The%20label%20can%20be%20hidden,reader%20and%20speech%20input%20users) - To help hide label's for forms for accessibility.
 - [Ninja Units](https://www.ninjaunits.com/converters/pixels/pixels-rem/) - To convert px's into rem.
-- [Github Docs](https://docs.github.com/en)
+- [Github Docs](https://docs.github.com/en) - For help with how to clone a respository.
 
 ## Testing
 
