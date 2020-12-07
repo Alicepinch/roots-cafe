@@ -141,7 +141,7 @@ Raleway will be used for headers and overpass for body text.
 
 #### Colour Scheme
 
-As the colour green is normally associated with Vegetarianism and Veganism, I have decided to use green as my main colour focus for this project. I want my website to be clean and crisp therefore I chose to stick with only green and not introduce any other bold colours.
+As the colour green is normally associated with Vegetarianism and Veganism, I have decided to use green as the main colour focus for this project. I want the website to be clean and crisp therefore I chose to stick with only green and not introduce any other bold colours.
 For links and CTA's I have decided to used the lighter green, and the darker green will be used for when hovering over for contrast. Dark grey will be used for the font colour and white for the background. I will also used the light green colour as background for some sections across the website to create consistency and break up the white.
 ![Colour Pallet](/docs/readme/canva-colour-wheel-roots-cafe.jpg)
 
@@ -199,12 +199,12 @@ Aria-labels and alt attributes added to all links and images across the website.
 - [Balsamiq](https://balsamiq.com/wireframes/desktop/) - To create the wireframes for Desktop, Tablet and Phone.
 - [Gimp](https://www.gimp.org/) - Used to resize images.
 - [Tinypng](https://tinypng.com/) - Ran all images through tinypng to compress.
-- [W3Schools](https://www.w3schools.com/cssref/css_selectors.asp) - For small code questions throughout my project.
+- [W3Schools](https://www.w3schools.com/cssref/css_selectors.asp) - For small code questions throughout the project.
 - [Stackoverflow](https://www.w3schools.com/cssref/css_selectors.asp) - Used to assist with small code questions.
 - [Canva](https://www.canva.com/colors/color-palette-generator/) - Used to create the colour pallet.
 - [Corelangs](http://www.corelangs.com/css/box/hover.html) - For help with the overlay for the instagram grid.
 - [Web Accessibility tutorials](https://www.w3.org/WAI/tutorials/forms/labels/#:~:text=this%20section%20Close-,Hiding%20label%20text,everyone%20better%20understand%20its%20purpose.&text=The%20label%20can%20be%20hidden,reader%20and%20speech%20input%20users) - To help hide label's for forms for accessibility.
-- [Ninja Units](https://www.ninjaunits.com/converters/pixels/pixels-rem/) - To convert my px's into rem.
+- [Ninja Units](https://www.ninjaunits.com/converters/pixels/pixels-rem/) - To convert px's into rem.
 - [Github Docs](https://docs.github.com/en)
 
 ## Testing
@@ -216,12 +216,12 @@ All the testing carried out for Roots Cafe can be found [here](TESTING.md)
 This project was created in Gitpod workspaces and pushed to Github regularly. To deploy this project to github the process was:
 
 - Opened up the 'Roots-cafe'repository on github
-- Went to settings
+- Go to settings
 - Scrolled down to 'Github pages' section
-- Selected the master branch as the source, saved these changes.
-- After refreshing the page my repo had been published
+- Select the master branch as the source, save these changes.
+- After refreshing the page the repo is published and the URL is generated.
 
-My Roots Cafe page can be accessed via: https://alicepinch.github.io/roots-cafe/
+The Roots Cafe page can be accessed via: https://alicepinch.github.io/roots-cafe/
 
 ### Cloning: 
 
