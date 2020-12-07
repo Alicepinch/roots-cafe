@@ -50,7 +50,7 @@ The main goal of the Roots Cafe website it to encourage users to become new cust
 
 #### Business Goals:
 
-- Create an impression of what the look and feel of the cafe is and what they are about.
+- Create an impression of the look and feel of the cafe and what it is about.
 - Encourage users to book a table/ get in contact.
 - Provide information users need to visit.
 - Inform the user of Menu options.
