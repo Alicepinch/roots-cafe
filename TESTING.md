@@ -170,9 +170,7 @@ Contact us returned the below error for Headings:
 ![Heading Error](/docs/testing/ws3-contact-form-heading-issue.png)
 In order to fix this, I moved the h1 from the form section into the parent section. 
 
-The below error will still return if this code is run through the validator as it is intentional to not have a header in this section as the H1 sits in the section above the form.
-![Section Error](/docs/testing/ws3-code-validator-contact-us-issue-section.png)
-
+When re-running the contact us code no issues were found. 
 
 When running my code through the CSS validator no errors were found:
 ![CSS Code Validator](/docs/testing/ws3-css-validator.png)
