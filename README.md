@@ -82,7 +82,7 @@ Below I have outlined all the requirements for this website along with the conte
 - Photos for gallery and instagram grid 
 - Customer reviews
 
-#### Future Requirements:
+#### Future Features:
 
 - An advanced reviews section from either google reviews or trip advisor or trust pilot
 - A booking system which displays all available dates and times
@@ -106,7 +106,8 @@ The homepage will be split into three sections.
 
 #### The Menu page:
 
-- The 'Menu' page will include the full menu for the user. This will also include a carousel of images.
+- The 'Menu' page will include the full menu for the user. 
+- This will also include a carousel of images.
 
 #### Visit Us
 
@@ -153,8 +154,8 @@ For links and CTA's I have decided to used the lighter green, and the darker gre
 ####  Hamburger menu: 
 - A hamburger menu for mobile and tablet view so user's can navigate easily via the drop down menu on smaller devices. 
 
-#### Iframe: 
-- Available on the 'Visit us' page accessed via the top navigation allows the user to be able to find the location of Roots Cafe.
+#### Location Map: 
+- Available on the 'Visit us' page accessed via the top navigation allows the user to be able to find the location of Roots Cafe from the iframe.
 
 #### Customer Reviews: 
 - Available directly on the homepage allows user to view some reviews from previous customers.
@@ -181,7 +182,7 @@ For links and CTA's I have decided to used the lighter green, and the darker gre
 - Responsive web design so that the user can view the website on different device sizes. 
 
 #### Accessibility:
-Aria-labels and alt attributes added to all links and images across the website. 
+- Aria-labels and alt attributes added to all links and images across the website. 
 
 ## Technologies Used
 
@@ -232,7 +233,7 @@ In order to clone a local copy of a repository to your computer you need to foll
 - Once you have done this, open the terminal 
 - The current directory will need to be changed to where you want your cloned directory.
 - Type 'git clone' and then paste in your URL from the earlier steps
-($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITOR)
+($ git clone https://github.com/alicepinch/roots-cafe)
 - Press enter
 
 You can find more information on this through [Github Docs](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
@@ -257,8 +258,3 @@ The photos used in this site were all copyright free and taken from the followin
 
 - https://www.rawpixel.com/
 - https://www.pexels.com/photo/vegetable-sandwich-on-plate-1095550/
-
-### Acknowledgements
-
-- Code institute Software Development diploma 
-- Code institute mentor Sandeep Aggarwal

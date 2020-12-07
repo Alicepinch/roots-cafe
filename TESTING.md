@@ -194,11 +194,17 @@ Please note that when submitting this form it will lead to a 405 error, this is 
 #### Usability Testing:
 ---
 
-This website has been cross checked on Safari, Chrome and Firefox and works in all of them. 
+This website has been cross checked on the below devices and browsers to test responsiveness:
+- Safari 
+- Google Chrome
+- Firefox 
+- iPhone max
+- iPhone 8
+- iPad 
+- 27inch screen
+- Macbook pro 13inch 
 
 This has also been run through [Ami Responsive](http://ami.responsivedesign.is/) and checked with developer tools regularly to ensure that the website is responsive.
-On top of this I checked on my Iphone directly as I found that the developer tools could sometimes be buggy. 
-This was also checked on a larger screen size of 27inches to check the responsiveness.
 
 I also sent this link out to some family and friends to check both the UX and to test that everything was working. 
 - Above I have mentioned how when testing in different screen sizes/browsers I encountered some issues and how I fixed these for the Hero Image and cover text and image formats.
