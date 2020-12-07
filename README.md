@@ -58,9 +58,9 @@ The main goal of the Roots Cafe website it to encourage users to become new cust
 
 ## Scope
 
-Below I have outlined all the requirements to be implemented to create this website. I have also outlined some future features I would want to implement that can't be done at the moment due to the time frame and my current knowledge.
+Below I have outlined all the requirements in order to create this website for the best User experience. I have also outlined some future features that I would want to implement which can't be done at the moment due to the time frame and my current knowledge.
 
-#### Requirements:
+#### Initial Features:
 - Contact Us Page - A basic contact form with first name, last name, email, subject and message fields.
 - Menu page - A menu page with all the menu items. 
 - Responsive webpage - A webpage that is optimized for different screen sizes. 
@@ -69,23 +69,23 @@ Below I have outlined all the requirements to be implemented to create this webs
 - Visit us page - Written address, iframe map, opening times and COVID update.
 - About us section - Information about roots cafe. 
 - Image Carousel - Some images of the food to accompany the menu.
-- Instagram grid - A display of instagtam photos. 
+- Instagram grid - A gallery of instagtam photos. 
 - Reviews section - Customer quotes from trip advisor.
 - Footer - with quick contact links and social media links.
 - Sticky navigation - A navigation bar that stays at the top of the page when scrolling. 
 
 #### Future Features:
-- An advanced reviews section from either google reviews or trip advisor or trust pilot
-- A booking system which displays all available dates and times
-- Form going through to an automated system
-- A sign up subscription modal
-- A 404 page
-- A promotional video
+- An advanced reviews section from either google reviews or trip advisor or trust pilot.
+- A booking system which displays all available dates and times.
+- Form going through to an automated system.
+- A sign up subscription modal.
+- A 404 page.
+- A promotional video.
 
 ### Structure
 ---
 
-The structure  of this website will be a linear structure with no subpages. The navigation on the top will include. Home, Menu, Visit , Contact.
+The structure f this website will be a linear structure with no subpages. The navigation on the top will include. Home, Menu, Visit us, Contact.
 
 #### The Homepage:
 
@@ -102,7 +102,7 @@ The homepage will be split into three sections.
 
 #### Visit Us
 
-- The 'Visit' page will include an address and a map, opening times and a COVID update.
+- The 'Visit us' page will include an address and a map, opening times and a COVID update.
 
 #### Contact:
 
@@ -116,7 +116,7 @@ Wireframes were created using balsamiq and the final wireframes can be accessed 
 
 ![Contact us wireframe](/docs/wireframes/contact-us-wireframes.png)
 ![Homepage wireframe](/docs/wireframes/homepage-wireframes.png)
-![Visit wireframe](/docs/wireframes/visit-us-wireframes.png)
+![Visit Us wireframe](/docs/wireframes/visit-us-wireframes.png)
 ![Menu wireframe](/docs/wireframes/menu-wireframes.png)
 
 ### Surface:
@@ -146,10 +146,10 @@ For links and CTA's I have decided to used the lighter green, and the darker gre
 - A hamburger menu for mobile and tablet view across all page so user's can navigate easily via the drop down menu on smaller devices. 
 
 #### Location Map: 
-- Available on the 'Visit' page accessed via the top navigation allows the user to be able to find the location of Roots Cafe from the iframe.
+- Available on the 'Visit Us' page accessed via the top navigation allows the user to be able to find the location of Roots Cafe from the iframe.
 
 #### Opening Times: 
-- Available on the 'Visit' page accessed via the top navigation provides the opening times for the cafe. 
+- Available on the 'Visit Us' page accessed via the top navigation provides the opening times for the cafe. 
 
 #### Customer Reviews: 
 - Available on the homepage when scrolled down. This allows user to view some reviews from previous customers.
@@ -210,9 +210,9 @@ All the testing carried out for Roots Cafe can be found [here](TESTING.md)
 
 This project was created in Gitpod workspaces and pushed to Github regularly. To deploy this project to github the process was:
 
-- Opened up the 'Roots-cafe'repository on github
+- Open the 'Roots-cafe'repository on github
 - Go to settings
-- Scrolled down to 'Github pages' section
+- Scroll down to 'Github pages' section
 - Select the master branch as the source, save these changes.
 - After refreshing the page the repo is published and the URL is generated.
 
