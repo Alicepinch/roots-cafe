@@ -85,7 +85,7 @@ Below I have outlined all the requirements in order to create this website for t
 ### Structure
 ---
 
-The structure f this website will be a linear structure with no subpages. The navigation on the top will include. Home, Menu, Visit us, Contact.
+The structure of this website will be a linear structure with no subpages. The navigation on the top will include. Home, Menu, Visit us, Contact.
 
 #### The Homepage:
 
